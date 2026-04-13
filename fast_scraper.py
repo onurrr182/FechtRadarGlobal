@@ -134,7 +134,7 @@ def process_entry(entry):
             if len(lines) > 1:
                 city = scraper.clean_city_name(lines[1])
                 geocode_query = city
-        if not city or len(city) < 2: continue
+        if not city or len(city) < 2: None
         
 
         precise_addr = None
