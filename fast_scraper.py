@@ -7,8 +7,8 @@ import requests
 
 scraper.CALENDAR_URL = "https://fencing.ophardt.online/en/calendar?date-from=2025-01-01&date-to=2028-12-31&nation=GER"
 
-print("📡 Loading Ophardt calendar...")
-soup = scraper.fetch_page(scraper.CALENDAR_URL)
+print("📡 Loading Ophardt calendar (with infinite scrolling)...")
+soup = scraper.fetch_page_playwright(scraper.CALENDAR_URL)
 
 all_links = soup.find_all('a', href=True)
 event_entries = []
@@ -113,7 +113,14 @@ def process_entry(entry):
         if city_match: 
             country_code = city_match.group(1)
             city = scraper.clean_city_name(city_match.group(2))
+        else:
+            # Fallback for tournaments lacking standard structure
+            lines = [L.strip() for L in header_text.split('\n') if L.strip()]
+            if len(lines) > 1:
+                city = scraper.clean_city_name(lines[1])
+        
         if not city or len(city) < 2: return None
+
 
         precise_addr = None
         inv_url = f"{scraper.BASE_URL}/en/invitation/view/{entry['id']}/html"
