@@ -24,12 +24,11 @@ def get_coordinates(city, country):
         if query in GEO_CACHE:
             return GEO_CACHE[query]
             
-        # Respect OpenStreetMap's strict 1 request per second limit
-        time.sleep(1.1) 
+        time.sleep(1.1) # Respect OSM 1 request/sec limit
         
         try:
             url = f"https://nominatim.openstreetmap.org/search?q={urllib.parse.quote(query)}&format=json&limit=1"
-            req = urllib.request.Request(url, headers={"User-Agent": "FechtRadarMap/5.0"})
+            req = urllib.request.Request(url, headers={"User-Agent": "FechtRadarMap/6.0"})
             with urllib.request.urlopen(req, timeout=5) as resp:
                 data = json.loads(resp.read().decode())
                 if data:
@@ -39,13 +38,13 @@ def get_coordinates(city, country):
         except Exception as e:
             pass
             
-        # Central Europe Fallback if not found
-        GEO_CACHE[query] = (48.0, 14.0)
+        GEO_CACHE[query] = (48.0, 14.0) # Central Europe Fallback
         return (48.0, 14.0)
 
 # --- SCRAPER LOGIC ---
 
 def get_quarterly_ranges(start_year, end_year):
+    """Generates 3-month chunks to bypass server limits."""
     quarters = []
     for year in range(start_year, end_year + 1):
         quarters.extend([
@@ -65,20 +64,19 @@ def process_entry(entry):
         soup = BeautifulSoup(r.text, 'html.parser')
         full_text = soup.get_text(" ", strip=True)
         
-        # FIXED REGEX: Made the middle region code (?:...)? optional 
-        # and added broader support for international accents
+        # Optional region code logic to catch all global formats
         match = re.search(r'\b([A-Z]{3})\s+(?:[A-Z0-9]{1,4}\s+)?([A-ZÄÖÜa-zßäöüéèàùìòáóúñç][\w\-\s/\.]+)', full_text)
-        
         if not match: return None
         
         country_code = match.group(1)
         city = scraper.clean_city_name(match.group(2))
         
+        # ISO Mapping for better map accuracy
         IOC_MAP = {
             "GER": "Germany", "USA": "United States", "FRA": "France", "GBR": "United Kingdom",
             "ITA": "Italy", "ESP": "Spain", "AUT": "Austria", "SUI": "Switzerland", "NED": "Netherlands",
             "CAN": "Canada", "POL": "Poland", "HUN": "Hungary", "JPN": "Japan", "KOR": "South Korea",
-            "CHN": "China", "AUS": "Australia", "BRA": "Brazil", "EGY": "Egypt"
+            "CHN": "China", "AUS": "Australia", "BRA": "Brazil", "EGY": "Egypt", "BEL": "Belgium"
         }
         actual_country = IOC_MAP.get(country_code, country_code)
         
@@ -102,6 +100,8 @@ def process_entry(entry):
             "pdfLink": url
         }
     except: return None
+
+
 if __name__ == "__main__":
     entries = []
     seen = set()
@@ -124,25 +124,32 @@ if __name__ == "__main__":
                 id_match = re.search(r'/event/(\d+)', href)
                 if id_match:
                     event_id = id_match.group(1)
-                    if event_id not in seen:
-                        seen.add(event_id)
-                        entries.append({"id": event_id, "name": a.get_text(strip=True)})
-                        chunk_count += 1
+                    
+                    # --- THE FIX: Only save links that actually contain text ---
+                    name = a.get_text(separator=" ", strip=True)
+                    name = re.sub(r'\s+', ' ', name) # Clean up extra spaces
+                    
+                    if len(name) > 3 and "show more" not in name.lower():
+                        if event_id not in seen:
+                            seen.add(event_id)
+                            entries.append({"id": event_id, "name": name})
+                            chunk_count += 1
                         
         print(f"✅ Found {chunk_count} unique events. Sleeping 5s...\n")
         time.sleep(5)
 
     print(f"🚀 Found {len(entries)} events to process. Mapping coordinates... (This may take a few minutes)")
 
+    # Process events with ThreadPool
     with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
         results = list(executor.map(process_entry, entries))
         final = [res for res in results if res]
         
-    # Sort chronologically
+    # Sort chronologically by year, then date string
     final = [f for f in final if f.get('date')]
     final.sort(key=lambda x: (x.get('year', ''), x.get('date', '')))
 
     with open('tournaments.json', 'w', encoding='utf-8') as f:
         json.dump(final, f, indent=4, ensure_ascii=False)
     
-    print(f"Done! Saved {len(final)} records with mapped locations.")
+    print(f"Done! Saved {len(final)} records with names and mapped locations.")
