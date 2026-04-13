@@ -34,7 +34,11 @@ def process_entry(entry):
 
 if __name__ == "__main__":
     soup = scraper.fetch_page_playwright(scraper.CALENDAR_URL)
-    
+   # --- ADD THIS SAFETY CHECK ---
+    if not soup:
+        print("❌ Scraper failed to load the page. Exiting gracefully.")
+        exit(1)
+    # ----------------------------- 
     entries = []
     seen = set()
     
