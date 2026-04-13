@@ -136,9 +136,6 @@ def process_entry(entry):
                 geocode_query = city
         if not city or len(city) < 2: continue
         
-        # Now use geocode_query instead of city when fetching coordinates!
-        lat, lng = thread_safe_geocode(geocode_query)
-
 
         precise_addr = None
         inv_url = f"{scraper.BASE_URL}/en/invitation/view/{entry['id']}/html"
@@ -201,6 +198,7 @@ def process_entry(entry):
             weapon = scraper.detect_weapon(entry['name'] + " " + header_text)
         age_group = scraper.detect_age_group(entry['name'] + " " + entry.get('raw_age', '') + " " + header_text)
         
+        # Now use geocode_query instead of city when fetching coordinates!
         lat, lng = thread_safe_geocode(geocode_query)
         if lat is None and geocode_query != city: lat, lng = thread_safe_geocode(f"{city}, {country_code}")
         if lat is None:
