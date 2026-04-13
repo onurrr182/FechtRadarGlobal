@@ -5,7 +5,7 @@ import threading
 import re
 import requests
 
-scraper.CALENDAR_URL = "https://fencing.ophardt.online/en/calendar?date-from=2025-01-01&date-to=2028-12-31&nation=GER"
+scraper.CALENDAR_URL = "https://fencing.ophardt.online/en/calendar"
 
 print("📡 Loading Ophardt calendar (with infinite scrolling)...")
 soup = scraper.fetch_page_playwright(scraper.CALENDAR_URL)
@@ -107,19 +107,37 @@ def process_entry(entry):
         if header_cutoff == -1: header_cutoff = min(500, len(page_text))
         header_text = page_text[:header_cutoff]
         
+        IOC_MAP = {
+            "GER": "Germany", "USA": "United States", "FRA": "France", "GBR": "United Kingdom",
+            "ITA": "Italy", "ESP": "Spain", "AUT": "Austria", "SUI": "Switzerland",
+            "NED": "Netherlands", "BEL": "Belgium", "CAN": "Canada", "POL": "Poland",
+            "HUN": "Hungary", "SWE": "Sweden", "DEN": "Denmark", "NOR": "Norway",
+            "FIN": "Finland", "AUS": "Australia", "JPN": "Japan", "CHN": "China",
+            "KOR": "South Korea", "BRA": "Brazil", "ARG": "Argentina", "RSA": "South Africa"
+        }
         city = None
         country_code = ""
+        geocode_query = ""
+        
         city_match = re.search(r'\b([A-Z]{3})\s+(?:[A-Za-zÄÖÜäöüßé]{1,4}\s+)?([A-ZÄÖÜa-zßäöüé][\wßäöüÄÖÜé\-\s/\.]+)', header_text)
+        
         if city_match: 
             country_code = city_match.group(1)
             city = scraper.clean_city_name(city_match.group(2))
+            actual_country = IOC_MAP.get(country_code, "")
+            
+            # Form an explicitly clear query for OpenStreetMap to prevent Ireland/UK mixups
+            geocode_query = f"{city}, {actual_country}" if actual_country else city
+            
         else:
-            # Fallback for tournaments lacking standard structure
             lines = [L.strip() for L in header_text.split('\n') if L.strip()]
             if len(lines) > 1:
                 city = scraper.clean_city_name(lines[1])
+                geocode_query = city
+        if not city or len(city) < 2: continue
         
-        if not city or len(city) < 2: return None
+        # Now use geocode_query instead of city when fetching coordinates!
+        lat, lng = thread_safe_geocode(geocode_query)
 
 
         precise_addr = None
