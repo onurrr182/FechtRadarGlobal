@@ -149,7 +149,7 @@ def process_entry(entry):
             
         venue_name = None; street_addr = None
         display_address = f"{city}, {country_code}"
-        geocode_query = f"{city}, {country_code}"
+        geocode_query = city  # Only use the city name!
         
         if precise_addr:
             venue_name = precise_addr.get("venue")
@@ -165,7 +165,8 @@ def process_entry(entry):
                 p_city = precise_addr['city']
                 p_zip = precise_addr['zip']
                 display_address = f"{p_zip} {p_city}, {country_code}"
-                geocode_query = f"{p_zip} {p_city}, {country_code}"
+                geocode_query = f"{p_zip} {p_city}"  # Only use zip + city
+
                 if street_addr:
                     display_address = f"{street_addr}, {display_address}"
                     geocode_query = f"{street_addr}, {p_zip} {p_city}, {country_code}"
