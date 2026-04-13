@@ -65,16 +65,20 @@ def process_entry(entry):
         soup = BeautifulSoup(r.text, 'html.parser')
         full_text = soup.get_text(" ", strip=True)
         
-        match = re.search(r'([A-Z]{3})\s+([A-Z0-9]{1,4})\s+([A-Za-zÄÖÜäöüßé\s\-]+)', full_text)
+        # FIXED REGEX: Made the middle region code (?:...)? optional 
+        # and added broader support for international accents
+        match = re.search(r'\b([A-Z]{3})\s+(?:[A-Z0-9]{1,4}\s+)?([A-ZÄÖÜa-zßäöüéèàùìòáóúñç][\w\-\s/\.]+)', full_text)
+        
         if not match: return None
         
         country_code = match.group(1)
-        city = scraper.clean_city_name(match.group(3))
+        city = scraper.clean_city_name(match.group(2))
         
-        # Map abbreviations to real country names for better map accuracy
         IOC_MAP = {
             "GER": "Germany", "USA": "United States", "FRA": "France", "GBR": "United Kingdom",
-            "ITA": "Italy", "ESP": "Spain", "AUT": "Austria", "SUI": "Switzerland", "NED": "Netherlands"
+            "ITA": "Italy", "ESP": "Spain", "AUT": "Austria", "SUI": "Switzerland", "NED": "Netherlands",
+            "CAN": "Canada", "POL": "Poland", "HUN": "Hungary", "JPN": "Japan", "KOR": "South Korea",
+            "CHN": "China", "AUS": "Australia", "BRA": "Brazil", "EGY": "Egypt"
         }
         actual_country = IOC_MAP.get(country_code, country_code)
         
@@ -98,7 +102,6 @@ def process_entry(entry):
             "pdfLink": url
         }
     except: return None
-
 if __name__ == "__main__":
     entries = []
     seen = set()
