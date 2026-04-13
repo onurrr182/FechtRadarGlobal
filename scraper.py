@@ -1,60 +1,61 @@
-import requests
-from bs4 import BeautifulSoup
-import re
 import time
+import re
 from playwright.sync_api import sync_playwright
+from bs4 import BeautifulSoup
 
-BASE_URL = "https://fencing.ophardt.online"
-CALENDAR_URL = f"{BASE_URL}/en/calendar?date-from=2025-01-01&date-to=2028-12-31"
-COUNTRY_CODE = None 
+def fetch_page_playwright(url):
+    print(f"📡 Opening {url}...")
+    with sync_playwright() as p:
+        # Using a real browser header to avoid being blocked
+        browser = p.chromium.launch(headless=True)
+        context = browser.new_context(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36")
+        page = context.new_page()
+        
+        page.goto(url, wait_until="networkidle")
 
+        # CRITICAL: Wait for the tournament rows to appear
+        try:
+            page.wait_for_selector("a[href*='/event/']", timeout=15000)
+        except:
+            print("⚠️ Timeout: No event links appeared. Trying to click anyway...")
+
+        last_count = 0
+        for _ in range(15):  # Max 15 clicks to avoid infinite loops
+            # Scroll and click 'Show More'
+            page.keyboard.press("End")
+            
+            # The selector for 'show more' is often a link inside a specific div
+            show_more = page.get_by_role("link", name="show more").or_(page.get_by_text("show more"))
+            
+            if show_more.first.is_visible():
+                show_more.first.click()
+                time.sleep(3) # Wait for network
+            else:
+                break
+                
+            current_count = len(page.locator("a[href*='/event/']").all())
+            print(f"   ... loaded {current_count} tournaments")
+            if current_count == last_count: break
+            last_count = current_count
+
+        soup = BeautifulSoup(page.content(), 'html.parser')
+        browser.close()
+        return soup
+
+# Add these helpers directly here so they are available to your main script
 def clean_city_name(raw_city):
     if not raw_city: return None
-    # Remove noise words and dates often found in the header text
-    city = re.split(r'\s{2,}|Invitation|Results|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec', raw_city)[0].strip()
-    city = re.sub(r'[\d\s,\.\-]+$', '', city).strip()
-    return city if len(city) > 1 else None
+    # Strips everything after a double space or common keywords
+    cleaned = re.split(r'\s{2,}|Invitation|Results|Entries', raw_city)[0].strip()
+    return cleaned if len(cleaned) > 1 else None
 
 def detect_weapon(text):
-    text_lower = text.lower()
     weapons = []
-    if any(w in text_lower for w in ["degen", "epee", "épée"]): weapons.append("Epee")
-    if any(w in text_lower for w in ["florett", "foil"]): weapons.append("Foil")
-    if any(w in text_lower for w in ["säbel", "sabel", "sabre", "saber"]): weapons.append("Sabre")
+    if re.search(r'epee|degen|épée', text, re.I): weapons.append("Epee")
+    if re.search(r'foil|florett', text, re.I): weapons.append("Foil")
+    if re.search(r'sabre|säbel', text, re.I): weapons.append("Sabre")
     return weapons if weapons else ["Mixed"]
 
 def detect_age_group(text):
-    u_matches = re.findall(r'\bU\s?(\d+)\b', text, re.IGNORECASE)
-    groups = [f"U{m}" for m in u_matches if int(m) in [9, 11, 13, 15, 17, 20, 23]]
-    if any(w in text.lower() for w in ["senior", "aktive"]): groups.append("Seniors")
-    if any(w in text.lower() for w in ["veteran", "vets"]): groups.append("Veterans")
-    return list(set(groups)) if groups else ["Seniors"]
-
-def fetch_page_playwright(url):
-    """Infinite scroll handler to get past the 332-tournament limit."""
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page(viewport={'width': 1280, 'height': 800})
-        page.goto(url, wait_until="networkidle")
-        
-        last_count = 0
-        while True:
-            page.keyboard.press("End")
-            time.sleep(2)
-            # Find and click the 'show more' button
-            btn = page.locator("a:has-text('show more'), button:has-text('show more')").first
-            if btn.is_visible():
-                btn.click()
-                time.sleep(2)
-            
-            count = len(page.locator("a[href*='/widget/event/']").all())
-            if count == last_count: break
-            last_count = count
-            
-        content = page.content()
-        browser.close()
-        return BeautifulSoup(content, 'html.parser')
-
-def geocode_city(city_name, country=None):
-    # Basic fallback geocoder (replace with your Nominatim logic if needed)
-    return 51.1657, 10.4515 # Default Germany
+    matches = re.findall(r'U\d+', text, re.I)
+    return list(set(matches)) if matches else ["Seniors"]
