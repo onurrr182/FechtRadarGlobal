@@ -290,9 +290,9 @@ def scrape_ophardt():
     print(f"📅 Month filter: {INCLUDE_MONTHS if INCLUDE_MONTHS else 'All'}")
     print(f"🌍 Country filter: {COUNTRY_CODE if COUNTRY_CODE else 'All'}")
     
-    # ── STEP 1: Load the calendar page ────────────────────────────────
-    print("\n📡 Loading Ophardt calendar...")
-    soup = fetch_page(CALENDAR_URL)
+# ── STEP 1: Load the calendar page ────────────────────────────────
+    print("\n📡 Loading Ophardt calendar (with infinite scroll)...")
+    soup = fetch_page_playwright(CALENDAR_URL)
     
     if not soup:
         print("❌ Failed to load calendar page")
