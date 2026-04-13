@@ -187,29 +187,57 @@ def fetch_page_playwright(url):
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
-            page = browser.new_page()
+            # 1. Use a desktop viewport so elements don't get squished/hidden
+            context = browser.new_context(viewport={'width': 1920, 'height': 1080})
+            page = context.new_page()
             page.goto(url, wait_until="domcontentloaded", timeout=90000)
             
-            last_height = page.evaluate("document.body.scrollHeight")
-            while True:
-                page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-                time.sleep(2.5) # Wait for network/AJAX loader
-                new_height = page.evaluate("document.body.scrollHeight")
-                if new_height == last_height:
+            # 2. Try to dismiss any giant Cookie Banners blocking the scroll
+            try:
+                cookie_btn = page.locator("button:has-text('Accept'), button:has-text('Zustimmen')").first
+                if cookie_btn.is_visible(timeout=3000):
+                    cookie_btn.click()
+                    time.sleep(1)
+            except:
+                pass
+            
+            print("  --> Scrolling down to load all events...")
+            retries = 0
+            
+            # 3. Scroll by focusing the last loaded element, not by pixel height
+            while retries < 3:
+                elements = page.locator("a[href*='/widget/event/']").all()
+                current_count = len(elements)
+                
+                if current_count > 0:
+                    # Force the browser to look at the very last tournament on the screen
+                    elements[-1].scroll_into_view_if_needed()
+                
+                # Fallback: also hit the End key
+                page.keyboard.press("End")
+                
+                # Wait for the server to send the next batch
+                time.sleep(3)
+                
+                new_count = len(page.locator("a[href*='/widget/event/']").all())
+                
+                if new_count == current_count:
+                    # No new elements loaded. Wait a bit and try again (network might be slow)
+                    retries += 1
                     time.sleep(2)
-                    new_height = page.evaluate("document.body.scrollHeight")
-                    if new_height == last_height:
-                        break
-                last_height = new_height
+                else:
+                    # Found new elements! Reset the retry counter and keep going.
+                    retries = 0
+                    print(f"      ... loaded {new_count} events so far")
             
             time.sleep(1)
             html = page.content()
             browser.close()
             return BeautifulSoup(html, 'html.parser')
+            
     except Exception as e:
         print(f"Playwright error fetching {url}: {e}")
         return None
-
 
 def get_precise_address(event_id):
     """Try to get venue + street address from the invitation page.
