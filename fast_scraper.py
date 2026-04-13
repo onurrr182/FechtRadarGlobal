@@ -55,7 +55,7 @@ print(f"   Found {len(event_entries)} unique event links on calendar")
 geocode_lock = threading.Lock()
 original_geocode = scraper.geocode_city
 
-def thread_safe_geocode(city_name, country="Germany"):
+def thread_safe_geocode(city_name, country=None):
     with geocode_lock:
         return original_geocode(city_name, country)
 
