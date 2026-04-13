@@ -1,46 +1,34 @@
 import time
 import re
 from playwright.sync_api import sync_playwright
+from playwright_stealth import stealth_sync
 from bs4 import BeautifulSoup
 
 def fetch_page_playwright(url):
-    print(f"📡 Opening {url}...")
+    print(f"📡 Opening {url} with Stealth Mode...")
     with sync_playwright() as p:
-        browser = p.chromium.launch(
-            headless=True,
-            # Pass some extra arguments to look less like a bot
-            args=["--disable-blink-features=AutomationControlled"] 
-        )
-        
+        browser = p.chromium.launch(headless=True)
         context = browser.new_context(
             viewport={'width': 1920, 'height': 1080},
             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-            # Add accept language so it doesn't look like a raw server request
-            locale="en-US",
-            timezone_id="Europe/Berlin"
+            locale="en-US"
         )
-        
         page = context.new_page()
         
+        # --- APPLY STEALTH TO FOOL BOT DETECTION ---
+        stealth_sync(page)
+        
         try:
-            # Revert to networkidle, but give it a strict timeout
             page.goto(url, wait_until="networkidle", timeout=60000)
-            
-            # CRITICAL: Force it to wait until the page title actually exists
-            page.wait_for_function("document.title !== ''", timeout=10000)
-            
+            page.wait_for_function("document.title !== ''", timeout=15000)
         except Exception as e:
             print(f"⚠️ Initial load warning: {e}")
             
-        # 📸 TAKE A PICTURE OF WHAT THE BOT SEES
-        page.screenshot(path="debug_screen.png")
-        print("📸 Saved screenshot to debug_screen.png. Check this file to see what went wrong!")
-
         page_title = page.title()
         print(f"📄 Page Title: {page_title}")
         
-        if not page_title or "moment" in page_title.lower() or "cloudflare" in page_title.lower():
-            print("🛑 WARNING: Blocked by bot-protection or page failed to load.")
+        if not page_title or "moment" in page_title.lower():
+            print("🛑 WARNING: Still blocked by bot-protection.")
             browser.close()
             return None
 
