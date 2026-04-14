@@ -12,34 +12,73 @@ from bs4 import BeautifulSoup
 # Global settings
 scraper.BASE_URL = "https://fencing.ophardt.online"
 
-# --- THREAD-SAFE GEOCODER ---
+# --- THREAD-SAFE GEOCODER & CLEANER ---
 GEO_CACHE = {}
 geo_lock = threading.Lock()
 
-def get_coordinates(city, country):
-    """Safely fetches coordinates without getting banned by OpenStreetMap."""
-    query = f"{city}, {country}"
+def clean_city_name(raw_city):
+    """Strips out fencing terminology so the map doesn't get confused."""
+    if not raw_city: return None
     
+    # Split by double spaces or newlines first
+    cleaned = re.split(r'\s{2,}|\n', raw_city)[0].strip()
+    
+    # Aggressive list of Fencing/Ophardt noise words
+    noise_words = [
+        'Men', 'Women', 'Foil', 'Epee', 'Sabre', 'épée', 'säbel', 'florett', 'degen',
+        'World', 'Cup', 'Championship', 'Grand Prix', 'Satellite', 'Veteran', 'U17', 'U20', 'U14',
+        'Cadet', 'Junior', 'Senior', 'Team', 'Individual', 'Invitation', 'Results', 'Entries', 'FIE'
+    ]
+    
+    # Chop off the string the moment it hits a noise word
+    for word in noise_words:
+        pattern = re.compile(rf'\b{word}\b', re.IGNORECASE)
+        match = pattern.search(cleaned)
+        if match:
+            cleaned = cleaned[:match.start()].strip()
+            
+    # Remove trailing punctuation and numbers
+    cleaned = re.sub(r'[\d\s,\.\-\/]+$', '', cleaned).strip()
+    return cleaned if len(cleaned) > 1 else None
+
+def get_coordinates(city, iso_code):
+    """Uses strict ISO limits so pins don't jump continents."""
+    if not iso_code: iso_code = ""
+        
+    query = f"{city}_{iso_code}"
     with geo_lock:
-        if query in GEO_CACHE:
-            return GEO_CACHE[query]
+        if query in GEO_CACHE: return GEO_CACHE[query]
             
         time.sleep(1.1) # Respect OSM 1 request/sec limit
         
+        # Attempt 1: Search by City strictly within the Country Code
         try:
-            url = f"https://nominatim.openstreetmap.org/search?q={urllib.parse.quote(query)}&format=json&limit=1"
-            req = urllib.request.Request(url, headers={"User-Agent": "FechtRadarMap/6.0"})
+            url = f"https://nominatim.openstreetmap.org/search?q={urllib.parse.quote(city)}&countrycodes={iso_code}&format=json&limit=1"
+            req = urllib.request.Request(url, headers={"User-Agent": "FechtRadarMap/9.0"})
             with urllib.request.urlopen(req, timeout=5) as resp:
                 data = json.loads(resp.read().decode())
                 if data:
                     res = (round(float(data[0]["lat"]), 5), round(float(data[0]["lon"]), 5))
                     GEO_CACHE[query] = res
                     return res
-        except Exception as e:
-            pass
+        except Exception: pass
             
-        GEO_CACHE[query] = (48.0, 14.0) # Central Europe Fallback
-        return (48.0, 14.0)
+        # Attempt 2: If city fails entirely, drop a pin in the center of the country
+        try:
+            time.sleep(1.1)
+            url = f"https://nominatim.openstreetmap.org/search?country={iso_code}&format=json&limit=1"
+            req = urllib.request.Request(url, headers={"User-Agent": "FechtRadarMap/9.0"})
+            with urllib.request.urlopen(req, timeout=5) as resp:
+                data = json.loads(resp.read().decode())
+                if data:
+                    res = (round(float(data[0]["lat"]), 5), round(float(data[0]["lon"]), 5))
+                    GEO_CACHE[query] = res
+                    return res
+        except Exception: pass
+
+        # If completely lost, DO NOT dump it in Germany. Drop the event.
+        GEO_CACHE[query] = (None, None)
+        return (None, None)
 
 # --- SCRAPER LOGIC ---
 
@@ -62,41 +101,49 @@ def process_entry(entry):
         if r.status_code != 200: return None
         
         soup = BeautifulSoup(r.text, 'html.parser')
-        full_text = soup.get_text(" ", strip=True)
+
+        # --- THE UI NUKER ---
+        # Destroy navigation, footers, and language menus before reading text
+        for ui in soup.find_all(['nav', 'header', 'footer', 'ul']):
+            ui.decompose()
+        for ui in soup.find_all(class_=re.compile(r'nav|lang|menu|breadcrumb|topbar|btn', re.I)):
+            ui.decompose()
+            
+        # Only look at the top 400 characters to ignore the Ophardt footer
+        header_text = soup.get_text(" ", strip=True)[:400] 
         
-        # Comprehensive list of valid FIE/IOC country codes
-        IOC_MAP = {
-            "GER": "Germany", "USA": "United States", "FRA": "France", "GBR": "United Kingdom",
-            "ITA": "Italy", "ESP": "Spain", "AUT": "Austria", "SUI": "Switzerland", "NED": "Netherlands",
-            "CAN": "Canada", "POL": "Poland", "HUN": "Hungary", "JPN": "Japan", "KOR": "South Korea",
-            "CHN": "China", "AUS": "Australia", "BRA": "Brazil", "EGY": "Egypt", "BEL": "Belgium",
-            "SWE": "Sweden", "DEN": "Denmark", "NOR": "Norway", "FIN": "Finland", "CZE": "Czechia",
-            "SVK": "Slovakia", "ROU": "Romania", "BUL": "Bulgaria", "GRE": "Greece", "TUR": "Turkey",
-            "CRO": "Croatia", "SRB": "Serbia", "UKR": "Ukraine", "GEO": "Georgia", "KAZ": "Kazakhstan",
-            "RSA": "South Africa", "ALG": "Algeria", "ARG": "Argentina", "CHI": "Chile", "COL": "Colombia",
-            "MEX": "Mexico", "PUR": "Puerto Rico", "CUB": "Cuba", "HKG": "Hong Kong", "TPE": "Taiwan",
-            "SGP": "Singapore", "PHI": "Philippines", "IND": "India", "IRI": "Iran", "KSA": "Saudi Arabia",
-            "UAE": "United Arab Emirates", "QAT": "Qatar", "UZB": "Uzbekistan", "ISR": "Israel",
-            "POR": "Portugal", "IRL": "Ireland", "ISL": "Iceland", "LUX": "Luxembourg", "MON": "Monaco",
-            "LTU": "Lithuania", "LAT": "Latvia", "EST": "Estonia", "SLO": "Slovenia", "MKD": "North Macedonia"
+        # FIE Code to ISO Code Mapping
+        FIE_TO_ISO = {
+            "GER": "de", "FRA": "fr", "ITA": "it", "ESP": "es", "GBR": "gb", "USA": "us", 
+            "CAN": "ca", "MEX": "mx", "BRA": "br", "ARG": "ar", "CHI": "cl", "COL": "co",
+            "EGY": "eg", "RSA": "za", "ALG": "dz", "MAR": "ma", "SEN": "sn",
+            "UAE": "ae", "KSA": "sa", "QAT": "qa", "KWT": "kw", "IRI": "ir",
+            "CHN": "cn", "JPN": "jp", "KOR": "kr", "HKG": "hk", "TPE": "tw", "SGP": "sg", 
+            "PHI": "ph", "IND": "in", "KAZ": "kz", "UZB": "uz", "AUS": "au", "NZL": "nz",
+            "POL": "pl", "HUN": "hu", "CZE": "cz", "SVK": "sk", "ROU": "ro", "BUL": "bg", 
+            "GRE": "gr", "TUR": "tr", "CRO": "hr", "SRB": "rs", "SLO": "si", "UKR": "ua", 
+            "GEO": "ge", "AUT": "at", "SUI": "ch", "BEL": "be", "NED": "nl", "LUX": "lu",
+            "SWE": "se", "DEN": "dk", "NOR": "no", "FIN": "fi", "EST": "ee", "LAT": "lv", 
+            "LTU": "lt", "ISL": "is", "IRL": "ie", "POR": "pt", "CUB": "cu", "PUR": "pr"
         }
         
-        # --- THE FIX ---
-        # Build a regex that ONLY matches these specific known country codes
-        valid_codes = "|".join(IOC_MAP.keys())
-        match = re.search(rf'\b({valid_codes})\s+(?:[A-Z0-9]{1,4}\s+)?([A-ZÄÖÜa-zßäöüéèàùìòáóúñç][\w\-\s/\.]+)', full_text)
+        # Fixed Regex: Removed numbers from the city capturing group
+        valid_codes = "|".join(FIE_TO_ISO.keys())
+        match = re.search(rf'\b({valid_codes})\s+(?:[A-Z0-9]{{1,3}}\s+)?([A-ZÄÖÜa-zßäöüéèàùìòáóúñç][A-Za-zÄÖÜa-zßäöüéèàùìòáóúñç\-\s\./]+)', header_text)
         
         if not match: return None
         
         country_code = match.group(1)
-        city = scraper.clean_city_name(match.group(2))
-        actual_country = IOC_MAP.get(country_code, country_code)
+        city = clean_city_name(match.group(2))
+        iso_code = FIE_TO_ISO.get(country_code, "")
         
-        # Now it will correctly search "Cairo, Egypt"
-        lat, lng = get_coordinates(city, actual_country)
+        lat, lng = get_coordinates(city, iso_code)
+        
+        # If the map absolutely cannot find it, drop the event so we don't put pins in the ocean
+        if lat is None or lng is None: return None
         
         # Extract Date
-        date_match = re.search(r'(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{1,2}),\s*(\d{4})', full_text)
+        date_match = re.search(r'(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{1,2}),\s*(\d{4})', header_text)
         date_str = f"{date_match.group(1)} {date_match.group(2)}" if date_match else ""
         year = date_match.group(3) if date_match else ""
         
@@ -108,11 +155,11 @@ def process_entry(entry):
             "lng": lng,
             "date": date_str,
             "year": year,
-            "weapon": scraper.detect_weapon(full_text),
-            "ageGroup": scraper.detect_age_group(full_text),
+            "weapon": scraper.detect_weapon(header_text),
+            "ageGroup": scraper.detect_age_group(header_text),
             "pdfLink": url
         }
-    except: return None   
+    except: return None
 
 
 if __name__ == "__main__":
@@ -138,7 +185,6 @@ if __name__ == "__main__":
                 if id_match:
                     event_id = id_match.group(1)
                     
-                    # --- THE FIX: Only save links that actually contain text ---
                     name = a.get_text(separator=" ", strip=True)
                     name = re.sub(r'\s+', ' ', name) # Clean up extra spaces
                     
@@ -165,4 +211,4 @@ if __name__ == "__main__":
     with open('tournaments.json', 'w', encoding='utf-8') as f:
         json.dump(final, f, indent=4, ensure_ascii=False)
     
-    print(f"Done! Saved {len(final)} records with names and mapped locations.")
+    print(f"Done! Saved {len(final)} records with mapped locations.")
