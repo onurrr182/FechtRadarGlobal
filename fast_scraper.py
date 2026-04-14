@@ -64,22 +64,35 @@ def process_entry(entry):
         soup = BeautifulSoup(r.text, 'html.parser')
         full_text = soup.get_text(" ", strip=True)
         
-        # Optional region code logic to catch all global formats
-        match = re.search(r'\b([A-Z]{3})\s+(?:[A-Z0-9]{1,4}\s+)?([A-ZÄÖÜa-zßäöüéèàùìòáóúñç][\w\-\s/\.]+)', full_text)
-        if not match: return None
-        
-        country_code = match.group(1)
-        city = scraper.clean_city_name(match.group(2))
-        
-        # ISO Mapping for better map accuracy
+        # Comprehensive list of valid FIE/IOC country codes
         IOC_MAP = {
             "GER": "Germany", "USA": "United States", "FRA": "France", "GBR": "United Kingdom",
             "ITA": "Italy", "ESP": "Spain", "AUT": "Austria", "SUI": "Switzerland", "NED": "Netherlands",
             "CAN": "Canada", "POL": "Poland", "HUN": "Hungary", "JPN": "Japan", "KOR": "South Korea",
-            "CHN": "China", "AUS": "Australia", "BRA": "Brazil", "EGY": "Egypt", "BEL": "Belgium"
+            "CHN": "China", "AUS": "Australia", "BRA": "Brazil", "EGY": "Egypt", "BEL": "Belgium",
+            "SWE": "Sweden", "DEN": "Denmark", "NOR": "Norway", "FIN": "Finland", "CZE": "Czechia",
+            "SVK": "Slovakia", "ROU": "Romania", "BUL": "Bulgaria", "GRE": "Greece", "TUR": "Turkey",
+            "CRO": "Croatia", "SRB": "Serbia", "UKR": "Ukraine", "GEO": "Georgia", "KAZ": "Kazakhstan",
+            "RSA": "South Africa", "ALG": "Algeria", "ARG": "Argentina", "CHI": "Chile", "COL": "Colombia",
+            "MEX": "Mexico", "PUR": "Puerto Rico", "CUB": "Cuba", "HKG": "Hong Kong", "TPE": "Taiwan",
+            "SGP": "Singapore", "PHI": "Philippines", "IND": "India", "IRI": "Iran", "KSA": "Saudi Arabia",
+            "UAE": "United Arab Emirates", "QAT": "Qatar", "UZB": "Uzbekistan", "ISR": "Israel",
+            "POR": "Portugal", "IRL": "Ireland", "ISL": "Iceland", "LUX": "Luxembourg", "MON": "Monaco",
+            "LTU": "Lithuania", "LAT": "Latvia", "EST": "Estonia", "SLO": "Slovenia", "MKD": "North Macedonia"
         }
+        
+        # --- THE FIX ---
+        # Build a regex that ONLY matches these specific known country codes
+        valid_codes = "|".join(IOC_MAP.keys())
+        match = re.search(rf'\b({valid_codes})\s+(?:[A-Z0-9]{1,4}\s+)?([A-ZÄÖÜa-zßäöüéèàùìòáóúñç][\w\-\s/\.]+)', full_text)
+        
+        if not match: return None
+        
+        country_code = match.group(1)
+        city = scraper.clean_city_name(match.group(2))
         actual_country = IOC_MAP.get(country_code, country_code)
         
+        # Now it will correctly search "Cairo, Egypt"
         lat, lng = get_coordinates(city, actual_country)
         
         # Extract Date
@@ -99,7 +112,7 @@ def process_entry(entry):
             "ageGroup": scraper.detect_age_group(full_text),
             "pdfLink": url
         }
-    except: return None
+    except: return None   
 
 
 if __name__ == "__main__":
