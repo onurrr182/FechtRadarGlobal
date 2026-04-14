@@ -112,14 +112,19 @@ def process_entry(entry):
         # Only look at the top 400 characters to ignore the Ophardt footer
         header_text = soup.get_text(" ", strip=True)[:400] 
         
-        # FIE Code to ISO Code Mapping
+        # --- THE FIX: FIE Code to ISO Code Mapping ---
+        # DANGER CODES REMOVED: 
+        # "SEN" (Senegal - confused with Senior)
+        # "MAR" (Morocco - confused with March)
+        # "IND" (India - confused with Individual)
+        
         FIE_TO_ISO = {
             "GER": "de", "FRA": "fr", "ITA": "it", "ESP": "es", "GBR": "gb", "USA": "us", 
             "CAN": "ca", "MEX": "mx", "BRA": "br", "ARG": "ar", "CHI": "cl", "COL": "co",
-            "EGY": "eg", "RSA": "za", "ALG": "dz", "MAR": "ma", "SEN": "sn",
+            "EGY": "eg", "RSA": "za", "ALG": "dz", 
             "UAE": "ae", "KSA": "sa", "QAT": "qa", "KWT": "kw", "IRI": "ir",
             "CHN": "cn", "JPN": "jp", "KOR": "kr", "HKG": "hk", "TPE": "tw", "SGP": "sg", 
-            "PHI": "ph", "IND": "in", "KAZ": "kz", "UZB": "uz", "AUS": "au", "NZL": "nz",
+            "PHI": "ph", "KAZ": "kz", "UZB": "uz", "AUS": "au", "NZL": "nz", 
             "POL": "pl", "HUN": "hu", "CZE": "cz", "SVK": "sk", "ROU": "ro", "BUL": "bg", 
             "GRE": "gr", "TUR": "tr", "CRO": "hr", "SRB": "rs", "SLO": "si", "UKR": "ua", 
             "GEO": "ge", "AUT": "at", "SUI": "ch", "BEL": "be", "NED": "nl", "LUX": "lu",
