@@ -44,8 +44,13 @@ def clean_city_name(raw_city):
 def get_coordinates(city, iso_code):
     """Uses strict ISO limits so pins don't jump continents."""
     if not iso_code: iso_code = ""
-        
-    query = f"{city}_{iso_code}"
+
+    city_query = city
+    # Disambiguate common German collision: Munster (Niedersachsen) vs Münster (NRW).
+    if iso_code == "de" and city and city.strip().lower() == "munster":
+        city_query = "Munster, Niedersachsen"
+
+    query = f"{city_query}_{iso_code}"
     with geo_lock:
         if query in GEO_CACHE: return GEO_CACHE[query]
             
@@ -53,7 +58,7 @@ def get_coordinates(city, iso_code):
         
         # Attempt 1: Search by City strictly within the Country Code
         try:
-            url = f"https://nominatim.openstreetmap.org/search?q={urllib.parse.quote(city)}&countrycodes={iso_code}&format=json&limit=1"
+            url = f"https://nominatim.openstreetmap.org/search?q={urllib.parse.quote(city_query)}&countrycodes={iso_code}&format=json&limit=1"
             req = urllib.request.Request(url, headers={"User-Agent": "FechtRadarMap/9.0"})
             with urllib.request.urlopen(req, timeout=5) as resp:
                 data = json.loads(resp.read().decode())
