@@ -1,6 +1,6 @@
 {
-  "name": "FechtRadar",
-  "short_name": "FechtRadar",
+  "name": "Global FechtRadar",
+  "short_name": "Global FechtRadar",
   "description": "Interactive map of fencing tournaments. Find epee, foil, and sabre competitions near you.",
   "start_url": "./index.html",
   "display": "standalone",

@@ -48,7 +48,7 @@ jobs:
           git add tournaments.json
           
           # Commit cleanly (this will intentionally fail cleanly if no changes)
-          git commit -m "Automated update: FechtRadar tournaments" || echo "No changes to commit"
+          git commit -m "Automated update: Global FechtRadar tournaments" || echo "No changes to commit"
           
           # Push back to the main branch
           git push
