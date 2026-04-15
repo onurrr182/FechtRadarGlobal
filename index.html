@@ -7,27 +7,27 @@
     <meta name="description" content="Interactive global map of fencing tournaments. Find epee, foil, and sabre competitions worldwide.">
     <meta name="keywords" content="fencing, fencing tournaments, epee, foil, sabre, global fencing map, fencing competitions, Ophardt, FIE">
     <link rel="manifest" href="./manifest.json">
-    <meta name="theme-color" content="#0f1117">
+    <meta name="theme-color" content="#f4f1ea">
     <link rel="apple-touch-icon" href="./icon-192.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-primary: #090b14;
-            --bg-secondary: #11172a;
-            --bg-card: #1b233a;
-            --bg-hover: #24304b;
-            --text-primary: #f2f5ff;
-            --text-secondary: #a8b1cc;
-            --text-muted: #7481a8;
-            --accent-epee: #58d4ff;
-            --accent-foil: #ffe082;
-            --accent-sabre: #ff6464;
-            --accent-mixed: #d8e0f0;
-            --accent-gradient: linear-gradient(135deg, #4f8dff 0%, #8a5bff 55%, #30d5ff 100%);
-            --border-color: rgba(173, 196, 255, 0.14);
-            --shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+            --bg-primary: #f7f4ee;
+            --bg-secondary: #fffdf9;
+            --bg-card: #f3eee5;
+            --bg-hover: #ebe4d8;
+            --text-primary: #1d1b18;
+            --text-secondary: #5b544a;
+            --text-muted: #847c72;
+            --accent-epee: #6aa9de;
+            --accent-foil: #c5a86a;
+            --accent-sabre: #b6786f;
+            --accent-mixed: #9d9489;
+            --accent-gradient: linear-gradient(135deg, #c8b28a 0%, #a58d63 100%);
+            --border-color: rgba(81, 66, 45, 0.14);
+            --shadow: 0 10px 30px rgba(69, 54, 35, 0.12);
             --radius: 12px;
             --radius-sm: 8px;
             --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
@@ -38,8 +38,8 @@
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
             background:
-                radial-gradient(1200px 600px at 75% 10%, rgba(79, 141, 255, 0.16), transparent 55%),
-                radial-gradient(900px 500px at 20% 85%, rgba(138, 91, 255, 0.14), transparent 60%),
+                radial-gradient(1200px 600px at 75% 10%, rgba(200, 178, 138, 0.2), transparent 55%),
+                radial-gradient(900px 500px at 20% 85%, rgba(166, 143, 106, 0.16), transparent 60%),
                 var(--bg-primary);
             color: var(--text-primary);
             overflow: hidden;
@@ -52,7 +52,7 @@
         .sidebar {
             width: 400px;
             min-width: 400px;
-            background: linear-gradient(160deg, rgba(17, 23, 42, 0.96), rgba(13, 18, 34, 0.94));
+            background: linear-gradient(160deg, rgba(255, 253, 249, 0.96), rgba(248, 242, 232, 0.96));
             backdrop-filter: blur(6px);
             display: flex;
             flex-direction: column;
@@ -64,28 +64,28 @@
         .sidebar-header {
             padding: 16px 18px 14px;
             border-bottom: 1px solid var(--border-color);
-            background: linear-gradient(180deg, rgba(79,141,255,0.18) 0%, rgba(79,141,255,0.02) 70%, transparent 100%);
+            background: linear-gradient(180deg, rgba(200,178,138,0.22) 0%, rgba(200,178,138,0.06) 70%, transparent 100%);
         }
 
         .brand { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
 
         .brand-icon {
             width: 38px; height: 38px;
-            background: radial-gradient(circle at 30% 28%, #d8eeff 0 16%, #64b9ff 34%, #2e5acd 68%, #19307f 100%);
+            background: radial-gradient(circle at 30% 28%, #fffdf7 0 16%, #ead9b5 34%, #c0a174 68%, #917548 100%);
             border-radius: var(--radius-sm);
             display: flex; align-items: center; justify-content: center;
             position: relative;
             overflow: hidden;
-            box-shadow: 0 8px 18px rgba(49, 104, 220, 0.42);
-            border: 1px solid rgba(216, 233, 255, 0.35);
+            box-shadow: 0 8px 18px rgba(130, 102, 58, 0.25);
+            border: 1px solid rgba(124, 93, 52, 0.28);
         }
 
         .brand-globe-lines {
             position: absolute;
             inset: 5px;
             border-radius: 999px;
-            border: 1px solid rgba(224, 238, 255, 0.58);
-            box-shadow: inset 0 0 0 1px rgba(104, 179, 255, 0.28);
+            border: 1px solid rgba(255, 251, 241, 0.68);
+            box-shadow: inset 0 0 0 1px rgba(182, 149, 100, 0.22);
         }
 
         .brand-globe-lines::before,
@@ -93,7 +93,7 @@
             content: "";
             position: absolute;
             border-radius: 999px;
-            border: 1px solid rgba(224, 238, 255, 0.35);
+            border: 1px solid rgba(255, 250, 239, 0.42);
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
@@ -113,10 +113,10 @@
             position: absolute;
             width: 3px;
             height: 22px;
-            background: linear-gradient(180deg, #ffffff 0%, #d5defc 70%, #9eaedb 100%);
+            background: linear-gradient(180deg, #fffefa 0%, #efe4cf 70%, #ceb68d 100%);
             border-radius: 999px;
             transform: rotate(-26deg);
-            box-shadow: 0 0 8px rgba(255, 255, 255, 0.35);
+            box-shadow: 0 0 8px rgba(197, 169, 123, 0.42);
         }
 
         .brand-blade::after {
@@ -127,7 +127,7 @@
             width: 7px;
             height: 4px;
             border-radius: 3px;
-            background: #1f2b57;
+            background: #836942;
         }
 
         .brand h1 {
@@ -147,15 +147,15 @@
 
         .search-box input {
             width: 100%; padding: 9px 14px 9px 36px;
-            background: rgba(27, 35, 58, 0.88); border: 1px solid var(--border-color);
+            background: rgba(255, 252, 246, 0.96); border: 1px solid var(--border-color);
             border-radius: var(--radius-sm); color: var(--text-primary);
             font-family: inherit; font-size: 13px; outline: none;
             transition: var(--transition);
         }
 
         .search-box input:focus {
-            border-color: rgba(102,126,234,0.5);
-            box-shadow: 0 0 0 3px rgba(102,126,234,0.1);
+            border-color: rgba(165, 140, 96, 0.62);
+            box-shadow: 0 0 0 3px rgba(165, 140, 96, 0.12);
         }
 
         .search-box input::placeholder { color: var(--text-muted); }
@@ -190,12 +190,12 @@
         }
 
         .filter-chip:hover {
-            background: linear-gradient(135deg, rgba(79,141,255,0.22), rgba(138,91,255,0.2));
-            border-color: rgba(187, 206, 255, 0.45);
+            background: linear-gradient(135deg, rgba(210,190,157,0.35), rgba(187,160,120,0.25));
+            border-color: rgba(130, 103, 66, 0.38);
             transform: translateY(-1px);
         }
 
-        .filter-chip.active { border-color: transparent; color: #fff; }
+        .filter-chip.active { border-color: transparent; color: #fffdf9; }
 
         .filter-chip[data-weapon="All"].active { background: var(--accent-gradient); }
         .filter-chip[data-weapon="Epee"].active { background: var(--accent-epee); color: #0a1929; }
@@ -204,7 +204,7 @@
         .filter-chip[data-weapon="Mixed"].active { background: var(--accent-mixed); }
 
         .filter-chip[data-age="All"].active { background: var(--accent-gradient); }
-        .filter-chip[data-age].active:not([data-age="All"]) { background: #4caf50; }
+        .filter-chip[data-age].active:not([data-age="All"]) { background: #8d7c60; }
 
         /* ─── DISTANCE FILTER ─────────────────────────────────────── */
         .distance-section {
@@ -236,10 +236,10 @@
         .locate-btn:hover { background: var(--bg-hover); }
 
         .locate-btn.active {
-            background: linear-gradient(135deg, #43a047, #66bb6a);
+            background: linear-gradient(135deg, #a98f64, #8f7650);
             border-color: transparent;
-            color: #fff;
-            box-shadow: 0 2px 8px rgba(76,175,80,0.3);
+            color: #fffdf9;
+            box-shadow: 0 2px 8px rgba(143,118,80,0.3);
         }
 
         .locate-btn.loading {
@@ -277,15 +277,15 @@
             appearance: none;
             width: 14px; height: 14px;
             border-radius: 50%;
-            background: #66bb6a;
+            background: #9f875d;
             cursor: pointer;
-            box-shadow: 0 0 6px rgba(76,175,80,0.4);
+            box-shadow: 0 0 6px rgba(159,135,93,0.36);
         }
 
         .distance-value {
             font-size: 11px;
             font-weight: 700;
-            color: #66bb6a;
+            color: #8f7650;
             min-width: 42px;
             text-align: right;
         }
@@ -301,10 +301,10 @@
             transition: color 0.2s;
         }
         .custom-checkbox:hover {
-            color: #fff;
+            color: #2d2821;
         }
         .custom-checkbox input {
-            accent-color: #66bb6a;
+            accent-color: #9f875d;
             width: 14px;
             height: 14px;
             cursor: pointer;
@@ -314,7 +314,7 @@
         .stats-bar {
             display: flex; padding: 8px 18px; gap: 14px;
             border-bottom: 1px solid var(--border-color);
-            background: rgba(0,0,0,0.15);
+            background: rgba(205, 186, 153, 0.16);
         }
 
         .stat { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-secondary); }
@@ -338,9 +338,9 @@
         .tournament-card:hover { background: var(--bg-hover); border-color: var(--border-color); }
 
         .tournament-card.active {
-            background: linear-gradient(160deg, rgba(44, 58, 91, 0.95), rgba(27, 35, 58, 0.96));
-            border-color: rgba(126, 170, 255, 0.55);
-            box-shadow: 0 2px 12px rgba(102,126,234,0.08);
+            background: linear-gradient(160deg, rgba(244, 236, 222, 0.95), rgba(236, 226, 209, 0.96));
+            border-color: rgba(152, 124, 85, 0.35);
+            box-shadow: 0 2px 12px rgba(137, 106, 67, 0.14);
         }
 
         .weapon-dot {
@@ -367,14 +367,14 @@
 
         .card-date {
             font-size: 10px; font-weight: 600; color: var(--text-muted);
-            background: rgba(255,255,255,0.05); padding: 2px 6px; border-radius: 4px;
+            background: rgba(173, 146, 110, 0.15); padding: 2px 6px; border-radius: 4px;
         }
 
         .card-city { font-size: 10px; color: var(--text-secondary); }
 
         .card-distance {
-            font-size: 10px; font-weight: 600; color: #66bb6a;
-            background: rgba(76,175,80,0.12); padding: 2px 6px; border-radius: 4px;
+            font-size: 10px; font-weight: 600; color: #8f7650;
+            background: rgba(143,118,80,0.15); padding: 2px 6px; border-radius: 4px;
         }
 
         .card-badge {
@@ -382,12 +382,12 @@
             border-radius: 4px; letter-spacing: 0.3px;
         }
 
-        .card-badge.Epee { background: rgba(79,195,247,0.15); color: var(--accent-epee); }
-        .card-badge.Foil { background: rgba(255,213,79,0.15); color: var(--accent-foil); }
-        .card-badge.Sabre { background: rgba(239,83,80,0.15); color: var(--accent-sabre); }
-        .card-badge.Mixed { background: rgba(171,71,188,0.15); color: var(--accent-mixed); }
+        .card-badge.Epee { background: rgba(106,169,222,0.16); color: var(--accent-epee); }
+        .card-badge.Foil { background: rgba(197,168,106,0.18); color: var(--accent-foil); }
+        .card-badge.Sabre { background: rgba(182,120,111,0.18); color: var(--accent-sabre); }
+        .card-badge.Mixed { background: rgba(157,148,137,0.2); color: var(--accent-mixed); }
 
-        .card-badge.age { background: rgba(76,175,80,0.12); color: #81c784; }
+        .card-badge.age { background: rgba(143,118,80,0.15); color: #7e6847; }
 
         /* ─── MAP ─────────────────────────────────────────────────── */
         .map-container { flex: 1; position: relative; }
@@ -713,19 +713,19 @@
 
         // ─── MAP DARK STYLE ─────────────────────────────────────────
         const DARK_MAP_STYLES = [
-            { elementType: "geometry", stylers: [{ color: "#1d2c4d" }] },
-            { elementType: "labels.text.stroke", stylers: [{ color: "#1a3646" }] },
-            { elementType: "labels.text.fill", stylers: [{ color: "#8ec3b9" }] },
-            { featureType: "administrative.country", elementType: "geometry.stroke", stylers: [{ color: "#4b6878" }] },
-            { featureType: "landscape", elementType: "geometry", stylers: [{ color: "#17263c" }] },
-            { featureType: "poi", elementType: "geometry", stylers: [{ color: "#283d6a" }] },
-            { featureType: "poi", elementType: "labels.text.fill", stylers: [{ color: "#6f9ba5" }] },
-            { featureType: "road", elementType: "geometry", stylers: [{ color: "#304a7d" }] },
-            { featureType: "road", elementType: "geometry.stroke", stylers: [{ color: "#255763" }] },
-            { featureType: "road.highway", elementType: "geometry", stylers: [{ color: "#2c6675" }] },
-            { featureType: "transit", elementType: "geometry", stylers: [{ color: "#2f3948" }] },
-            { featureType: "water", elementType: "geometry", stylers: [{ color: "#0e1626" }] },
-            { featureType: "water", elementType: "labels.text.fill", stylers: [{ color: "#4e6d70" }] },
+            { elementType: "geometry", stylers: [{ color: "#f6f2ea" }] },
+            { elementType: "labels.text.fill", stylers: [{ color: "#6f6558" }] },
+            { elementType: "labels.text.stroke", stylers: [{ color: "#ffffff" }] },
+            { featureType: "administrative", elementType: "geometry.stroke", stylers: [{ color: "#d8cdbb" }] },
+            { featureType: "landscape", elementType: "geometry", stylers: [{ color: "#f3ede2" }] },
+            { featureType: "poi", elementType: "geometry", stylers: [{ color: "#efe6d6" }] },
+            { featureType: "poi.park", elementType: "geometry", stylers: [{ color: "#e3ecd9" }] },
+            { featureType: "road", elementType: "geometry", stylers: [{ color: "#ffffff" }] },
+            { featureType: "road", elementType: "geometry.stroke", stylers: [{ color: "#e5dbcb" }] },
+            { featureType: "road.highway", elementType: "geometry", stylers: [{ color: "#e8dcc8" }] },
+            { featureType: "transit", elementType: "geometry", stylers: [{ color: "#e7dece" }] },
+            { featureType: "water", elementType: "geometry", stylers: [{ color: "#dae6ef" }] },
+            { featureType: "water", elementType: "labels.text.fill", stylers: [{ color: "#708491" }] },
         ];
 
         // ─── HAVERSINE DISTANCE ──────────────────────────────────────
