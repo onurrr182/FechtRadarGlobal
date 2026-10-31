@@ -8,7 +8,6 @@
         "date": "Nov 11",
         "year": "2024",
         "weapon": [
-            "Epee",
             "Foil"
         ],
         "ageGroup": [
@@ -25,7 +24,6 @@
         "date": "Apr 10",
         "year": "2025",
         "weapon": [
-            "Epee",
             "Foil"
         ],
         "ageGroup": [
@@ -307,7 +305,7 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U15"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30669"
     },
@@ -405,10 +403,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31834"
     },
@@ -457,9 +455,9 @@
         ],
         "ageGroup": [
             "U20",
-            "U17",
+            "U12",
             "U14",
-            "U12"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30074"
     },
@@ -508,8 +506,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31292"
     },
@@ -1072,8 +1070,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30276"
     },
@@ -1234,8 +1231,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30212"
     },
@@ -1252,7 +1249,6 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32043"
@@ -1334,8 +1330,8 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32136"
     },
@@ -1585,8 +1581,8 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32052"
     },
@@ -1667,7 +1663,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U1"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30740"
     },
@@ -1684,8 +1680,8 @@
         ],
         "ageGroup": [
             "U17",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31092"
     },
@@ -1734,7 +1730,7 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U20"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30739"
     },
@@ -1781,7 +1777,7 @@
         "date": "Apr 5",
         "year": "2025",
         "weapon": [
-            "Sabre"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -1816,7 +1812,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U1",
             "U11",
             "U9",
             "U13"
@@ -1918,7 +1913,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U9"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30051"
     },
@@ -1966,7 +1961,6 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U11",
             "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31349"
@@ -1983,10 +1977,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31186"
     },
@@ -2003,8 +1997,8 @@
         ],
         "ageGroup": [
             "U20",
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30938"
     },
@@ -2020,9 +2014,9 @@
             "Epee"
         ],
         "ageGroup": [
+            "U10",
             "U12",
-            "U14",
-            "U10"
+            "U14"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30931"
     },
@@ -2038,10 +2032,10 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U17",
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32279"
     },
@@ -2191,8 +2185,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31796"
     },
@@ -2224,7 +2218,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31809"
     },
@@ -2237,7 +2231,7 @@
         "date": "Aug 2",
         "year": "2025",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -2285,7 +2279,7 @@
         "date": "Aug 29",
         "year": "2025",
         "weapon": [
-            "Foil"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -2320,7 +2314,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32117"
     },
@@ -2349,8 +2343,7 @@
         "date": "Aug 30",
         "year": "2025",
         "weapon": [
-            "Epee",
-            "Sabre"
+            "Epee"
         ],
         "ageGroup": [
             "U11",
@@ -2368,7 +2361,6 @@
         "date": "Aug 30",
         "year": "2025",
         "weapon": [
-            "Epee",
             "Foil"
         ],
         "ageGroup": [
@@ -2388,8 +2380,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U14",
-            "U12"
+            "U12",
+            "U14"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32733"
     },
@@ -2472,8 +2464,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32945"
     },
@@ -2489,8 +2481,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U11",
-            "U15"
+            "U15",
+            "U1"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32008"
     },
@@ -2588,8 +2580,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U11"
+            "U11",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33394"
     },
@@ -2602,8 +2594,7 @@
         "date": "Dec 13",
         "year": "2025",
         "weapon": [
-            "Epee",
-            "Foil"
+            "Epee"
         ],
         "ageGroup": [
             "U15"
@@ -2622,8 +2613,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33325"
     },
@@ -2673,8 +2664,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33467"
     },
@@ -2722,8 +2713,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33669"
     },
@@ -2772,9 +2763,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
             "U11",
-            "U13"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32993"
     },
@@ -2988,8 +2978,7 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33674"
     },
@@ -3117,7 +3106,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U11",
             "U9"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33647"
@@ -3134,10 +3122,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32580"
     },
@@ -3268,9 +3256,9 @@
             "Epee"
         ],
         "ageGroup": [
+            "U15",
             "U9",
-            "U13",
-            "U15"
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33392"
     },
@@ -3299,7 +3287,7 @@
         "date": "Dec 6",
         "year": "2025",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -3351,8 +3339,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33439"
     },
@@ -3365,7 +3353,6 @@
         "date": "Dec 6",
         "year": "2025",
         "weapon": [
-            "Epee",
             "Foil"
         ],
         "ageGroup": [
@@ -3385,8 +3372,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33314"
     },
@@ -3415,7 +3402,6 @@
         "date": "Dec 6",
         "year": "2025",
         "weapon": [
-            "Epee",
             "Foil",
             "Sabre"
         ],
@@ -3485,8 +3471,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U14",
-            "U10"
+            "U10",
+            "U14"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33340"
     },
@@ -3552,10 +3538,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31315"
     },
@@ -3655,8 +3641,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31632"
     },
@@ -3735,7 +3721,7 @@
         "date": "Feb 1",
         "year": "2025",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -3805,8 +3791,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30905"
     },
@@ -3854,10 +3840,10 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U20",
-            "U13",
             "U11",
-            "U15"
+            "U20",
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/29456"
     },
@@ -3902,7 +3888,7 @@
         "date": "Feb 1",
         "year": "2025",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -3921,7 +3907,8 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U13"
+            "U13",
+            "U1"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30820"
     },
@@ -4166,7 +4153,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30464"
@@ -4217,8 +4203,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31115"
     },
@@ -4284,8 +4270,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30982"
     },
@@ -4309,8 +4295,8 @@
         "name": "6 Keizer Karel Tournament",
         "country": "NED",
         "city": "Nijmegen",
-        "lat": 51.84749,
-        "lng": 5.86378,
+        "lat": 51.84257,
+        "lng": 5.83896,
         "date": "Feb 16",
         "year": "2025",
         "weapon": [
@@ -4369,8 +4355,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31798"
     },
@@ -4386,9 +4372,9 @@
             "Epee"
         ],
         "ageGroup": [
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31493"
     },
@@ -4436,7 +4422,6 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20",
             "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31274"
@@ -4486,7 +4471,6 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31329"
@@ -4504,8 +4488,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30857"
     },
@@ -4538,10 +4522,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31863"
     },
@@ -4688,10 +4672,10 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20",
             "U17",
-            "U13",
-            "U15"
+            "U20",
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31125"
     },
@@ -4738,8 +4722,7 @@
         "date": "Feb 22",
         "year": "2025",
         "weapon": [
-            "Epee",
-            "Sabre"
+            "Epee"
         ],
         "ageGroup": [
             "Seniors"
@@ -4806,8 +4789,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U8",
-            "U10"
+            "U10",
+            "U8"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31626"
     },
@@ -4823,9 +4806,9 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
+            "U10",
             "U14",
-            "U10"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33047"
     },
@@ -4940,7 +4923,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U11",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31309"
@@ -4958,9 +4940,9 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
+            "U12",
             "U13",
-            "U12"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32054"
     },
@@ -5058,10 +5040,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U20",
             "U17",
-            "U13",
-            "U15"
+            "U20",
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30856"
     },
@@ -5093,9 +5075,9 @@
             "Foil"
         ],
         "ageGroup": [
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32019"
     },
@@ -5322,8 +5304,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U20",
             "U17",
+            "U20",
             "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31659"
@@ -5373,8 +5355,8 @@
         ],
         "ageGroup": [
             "U20",
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31095"
     },
@@ -5390,8 +5372,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20",
             "U17",
+            "U20",
             "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31662"
@@ -5489,10 +5471,10 @@
             "Foil"
         ],
         "ageGroup": [
+            "U10",
             "U8",
-            "U17",
             "U14",
-            "U10"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33131"
     },
@@ -5509,8 +5491,8 @@
         ],
         "ageGroup": [
             "U20",
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30937"
     },
@@ -5544,9 +5526,9 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U17",
+            "U10",
             "U12",
-            "U10"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31405"
     },
@@ -5562,8 +5544,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20",
-            "U17"
+            "U20"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31333"
     },
@@ -5612,8 +5593,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31869"
     },
@@ -5630,8 +5611,7 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31304"
     },
@@ -5663,8 +5643,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U11"
+            "U11",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30494"
     },
@@ -5833,8 +5813,8 @@
         "name": "EFC AMU Cup",
         "country": "POL",
         "city": "Poznan",
-        "lat": 52.40827,
-        "lng": 16.93352,
+        "lat": 52.40066,
+        "lng": 16.91973,
         "date": "Jan 11",
         "year": "2025",
         "weapon": [
@@ -5859,8 +5839,8 @@
         "ageGroup": [
             "U17",
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30855"
     },
@@ -6038,7 +6018,6 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U13",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31081"
@@ -6186,8 +6165,8 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U9",
-            "U11"
+            "U11",
+            "U9"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31616"
     },
@@ -6244,8 +6223,8 @@
         "name": "Polish Championships",
         "country": "POL",
         "city": "Torun",
-        "lat": 53.01454,
-        "lng": 18.59658,
+        "lat": 53.01027,
+        "lng": 18.60481,
         "date": "Jan 18",
         "year": "2025",
         "weapon": [
@@ -6396,7 +6375,6 @@
         "date": "Jan 18",
         "year": "2025",
         "weapon": [
-            "Foil",
             "Sabre"
         ],
         "ageGroup": [
@@ -6461,7 +6439,7 @@
         "date": "Jan 18",
         "year": "2025",
         "weapon": [
-            "Foil"
+            "Mixed"
         ],
         "ageGroup": [
             "U15"
@@ -6513,8 +6491,8 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U20",
             "U11",
+            "U20",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31093"
@@ -6548,10 +6526,10 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20",
             "U17",
-            "U13",
-            "U15"
+            "U20",
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31084"
     },
@@ -6567,8 +6545,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30666"
     },
@@ -6633,8 +6611,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U9",
-            "U11"
+            "U11",
+            "U9"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31331"
     },
@@ -7186,11 +7164,11 @@
         ],
         "ageGroup": [
             "U20",
-            "U15",
+            "U13",
+            "U17",
             "U11",
             "U9",
-            "U13",
-            "U17"
+            "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30760"
     },
@@ -7239,7 +7217,6 @@
             "Epee"
         ],
         "ageGroup": [
-            "U1",
             "U11",
             "U13"
         ],
@@ -7289,7 +7266,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30478"
     },
@@ -7305,8 +7282,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31118"
     },
@@ -7339,8 +7316,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30685"
     },
@@ -7380,12 +7357,12 @@
         "name": "2025 Championships of Baden-Nord - Württemberg",
         "country": "GER",
         "city": "WÜ Heidelberg",
-        "lat": 51.25828,
-        "lng": 7.15621,
+        "lat": 51.2583,
+        "lng": 7.15622,
         "date": "Jan 25",
         "year": "2025",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -7500,7 +7477,6 @@
             "Epee"
         ],
         "ageGroup": [
-            "U1",
             "U20"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30684"
@@ -7533,7 +7509,6 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U2",
             "U20"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30306"
@@ -7566,7 +7541,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20"
+            "U20",
+            "U2"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30296"
     },
@@ -7730,7 +7706,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U1",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32543"
@@ -7793,7 +7768,6 @@
         "year": "2025",
         "weapon": [
             "Epee",
-            "Foil",
             "Sabre"
         ],
         "ageGroup": [
@@ -7830,7 +7804,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U9"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31718"
     },
@@ -7862,7 +7836,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U15"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31717"
     },
@@ -8051,8 +8025,8 @@
         "name": "Mannschaftsturnier Open 2025 Danube Cup",
         "country": "GER",
         "city": "WÜ Ulm",
-        "lat": 48.39592,
-        "lng": 9.99337,
+        "lat": 48.39843,
+        "lng": 9.99095,
         "date": "Jul 5",
         "year": "2025",
         "weapon": [
@@ -8147,16 +8121,16 @@
         "name": "Mannschaftsturnier Open 2025 Danube Cup",
         "country": "GER",
         "city": "WÜ Ulm",
-        "lat": 48.39592,
-        "lng": 9.99337,
+        "lat": 48.39843,
+        "lng": 9.99095,
         "date": "Jul 6",
         "year": "2025",
         "weapon": [
             "Epee"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32574"
     },
@@ -8190,8 +8164,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30911"
     },
@@ -8207,10 +8181,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30487"
     },
@@ -8259,8 +8233,8 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U14",
-            "U12"
+            "U12",
+            "U14"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30935"
     },
@@ -8273,7 +8247,6 @@
         "date": "Jun 14",
         "year": "2025",
         "weapon": [
-            "Epee",
             "Foil",
             "Sabre"
         ],
@@ -8310,7 +8283,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U15"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30609"
     },
@@ -8355,8 +8328,7 @@
         "date": "Jun 14",
         "year": "2025",
         "weapon": [
-            "Epee",
-            "Foil"
+            "Epee"
         ],
         "ageGroup": [
             "Seniors"
@@ -8409,7 +8381,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U15"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30608"
     },
@@ -8455,7 +8427,7 @@
         "date": "Jun 15",
         "year": "2025",
         "weapon": [
-            "Foil"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -8526,9 +8498,9 @@
         ],
         "ageGroup": [
             "U20",
-            "U17",
+            "U12",
             "U14",
-            "U12"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31397"
     },
@@ -8759,10 +8731,10 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U20",
             "U17",
-            "U13",
-            "U15"
+            "U20",
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31363"
     },
@@ -8794,10 +8766,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32821"
     },
@@ -8914,7 +8886,8 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U14"
+            "U14",
+            "U1"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31070"
     },
@@ -8930,8 +8903,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32541"
     },
@@ -8960,8 +8933,7 @@
         "date": "Jun 28",
         "year": "2025",
         "weapon": [
-            "Epee",
-            "Foil"
+            "Epee"
         ],
         "ageGroup": [
             "U15"
@@ -9028,8 +9000,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32383"
     },
@@ -9061,7 +9033,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U11"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32474"
     },
@@ -9137,8 +9109,8 @@
         "name": "Polish Championships",
         "country": "POL",
         "city": "Torun",
-        "lat": 53.01454,
-        "lng": 18.59658,
+        "lat": 53.01027,
+        "lng": 18.60481,
         "date": "Jun 7",
         "year": "2025",
         "weapon": [
@@ -9327,8 +9299,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34052"
     },
@@ -9538,7 +9510,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30752"
     },
@@ -9602,7 +9574,7 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U20"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31933"
     },
@@ -9652,7 +9624,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U1"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31108"
     },
@@ -9717,7 +9689,7 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U1"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31934"
     },
@@ -9851,10 +9823,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31862"
     },
@@ -10017,8 +9989,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30794"
     },
@@ -10082,7 +10054,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U1"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30479"
     },
@@ -10114,7 +10086,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31227"
     },
@@ -10147,8 +10119,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30378"
     },
@@ -10279,8 +10251,7 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31129"
     },
@@ -10293,8 +10264,7 @@
         "date": "Mar 15",
         "year": "2025",
         "weapon": [
-            "Epee",
-            "Foil"
+            "Epee"
         ],
         "ageGroup": [
             "Seniors"
@@ -10377,10 +10347,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30486"
     },
@@ -10447,7 +10417,6 @@
             "Epee"
         ],
         "ageGroup": [
-            "U2",
             "U20"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31369"
@@ -10496,10 +10465,10 @@
             "Foil"
         ],
         "ageGroup": [
+            "U15",
             "U11",
             "U9",
-            "U13",
-            "U15"
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32285"
     },
@@ -10856,7 +10825,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U1",
             "U20"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30899"
@@ -10870,7 +10838,7 @@
         "date": "Mar 22",
         "year": "2025",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -10889,8 +10857,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U12"
+            "U12",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31467"
     },
@@ -10939,7 +10907,6 @@
             "Epee"
         ],
         "ageGroup": [
-            "U1",
             "U17",
             "U13"
         ],
@@ -10965,8 +10932,8 @@
         "name": "Championships of Mainz",
         "country": "GER",
         "city": "Mainz-Gonsenheim",
-        "lat": 49.99771,
-        "lng": 8.21429,
+        "lat": 49.99774,
+        "lng": 8.21431,
         "date": "Mar 22",
         "year": "2025",
         "weapon": [
@@ -11006,9 +10973,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U1",
-            "U17",
-            "U13"
+            "U13",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30720"
     },
@@ -11056,9 +11022,9 @@
             "Epee"
         ],
         "ageGroup": [
-            "U9",
             "U11",
-            "U15"
+            "U15",
+            "U9"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30717"
     },
@@ -11138,9 +11104,9 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30916"
     },
@@ -11170,8 +11136,7 @@
         "date": "Mar 23",
         "year": "2025",
         "weapon": [
-            "Epee",
-            "Foil"
+            "Epee"
         ],
         "ageGroup": [
             "Seniors"
@@ -11279,8 +11244,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31769"
     },
@@ -11294,8 +11259,7 @@
         "year": "2025",
         "weapon": [
             "Epee",
-            "Foil",
-            "Sabre"
+            "Foil"
         ],
         "ageGroup": [
             "U11",
@@ -11398,8 +11362,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32280"
     },
@@ -11433,8 +11397,8 @@
         "ageGroup": [
             "U17",
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30771"
     },
@@ -11501,8 +11465,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31119"
     },
@@ -11553,7 +11517,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30465"
@@ -11587,8 +11550,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30793"
     },
@@ -11634,7 +11597,7 @@
         "date": "Mar 29",
         "year": "2025",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "U20"
@@ -11669,10 +11632,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U1",
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14",
+            "U1"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30915"
     },
@@ -11680,8 +11643,8 @@
         "name": "Polish Championships",
         "country": "POL",
         "city": "Poznan",
-        "lat": 52.40827,
-        "lng": 16.93352,
+        "lat": 52.40066,
+        "lng": 16.91973,
         "date": "Mar 30",
         "year": "2025",
         "weapon": [
@@ -11705,10 +11668,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31395"
     },
@@ -11757,7 +11720,7 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U1"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31913"
     },
@@ -11837,9 +11800,9 @@
             "Foil"
         ],
         "ageGroup": [
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32017"
     },
@@ -11888,7 +11851,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30678"
     },
@@ -11950,7 +11913,7 @@
         "date": "Mar 8",
         "year": "2025",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -11998,7 +11961,6 @@
         "date": "Mar 8",
         "year": "2025",
         "weapon": [
-            "Epee",
             "Foil"
         ],
         "ageGroup": [
@@ -12018,9 +11980,9 @@
             "Foil"
         ],
         "ageGroup": [
+            "U15",
             "U9",
-            "U13",
-            "U15"
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31024"
     },
@@ -12136,8 +12098,8 @@
         "ageGroup": [
             "U17",
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31477"
     },
@@ -12161,8 +12123,8 @@
         "name": "Open Southwest German Championships",
         "country": "GER",
         "city": "Mainz-Gonsenheim",
-        "lat": 49.99771,
-        "lng": 8.21429,
+        "lat": 49.99774,
+        "lng": 8.21431,
         "date": "Mar 8",
         "year": "2025",
         "weapon": [
@@ -12185,7 +12147,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U15"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31121"
     },
@@ -12249,8 +12211,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U11",
-            "U13"
+            "U11"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31865"
     },
@@ -12266,7 +12227,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20"
+            "U20",
+            "U2"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30764"
     },
@@ -12363,8 +12325,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U8",
-            "U10"
+            "U10",
+            "U8"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32107"
     },
@@ -12397,9 +12359,9 @@
             "Foil"
         ],
         "ageGroup": [
-            "U1",
             "U20",
-            "U17"
+            "U17",
+            "U1"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31753"
     },
@@ -12415,8 +12377,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U2",
-            "U20"
+            "U20",
+            "U2"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32461"
     },
@@ -12477,8 +12439,7 @@
         "date": "May 10",
         "year": "2025",
         "weapon": [
-            "Epee",
-            "Foil"
+            "Epee"
         ],
         "ageGroup": [
             "U14"
@@ -12529,7 +12490,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U20"
+            "U2"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30592"
     },
@@ -12545,7 +12506,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30602"
     },
@@ -12577,7 +12538,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30603"
     },
@@ -12593,7 +12554,6 @@
             "Epee"
         ],
         "ageGroup": [
-            "U11",
             "U9"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32024"
@@ -12626,7 +12586,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U1",
             "U9"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32058"
@@ -12725,7 +12684,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U20"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30593"
     },
@@ -12823,10 +12782,10 @@
             "Foil"
         ],
         "ageGroup": [
+            "U10",
             "U8",
-            "U17",
             "U14",
-            "U10"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33133"
     },
@@ -12867,8 +12826,8 @@
         "name": "16 Tegeltjes Tournament",
         "country": "NED",
         "city": "Delft",
-        "lat": 52.0114,
-        "lng": 4.35839,
+        "lat": 51.99946,
+        "lng": 4.36272,
         "date": "May 11",
         "year": "2025",
         "weapon": [
@@ -13007,7 +12966,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13"
+            "U1"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32447"
     },
@@ -13023,7 +12982,6 @@
             "Epee"
         ],
         "ageGroup": [
-            "U1",
             "U11"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32384"
@@ -13040,9 +12998,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U14",
-            "U12",
-            "U10"
+            "U10",
+            "U12"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32004"
     },
@@ -13175,8 +13132,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30963"
     },
@@ -13200,8 +13157,8 @@
         "name": "2025 Danish Senior Championships",
         "country": "DEN",
         "city": "HS K",
-        "lat": 57.0873,
-        "lng": 9.8743,
+        "lat": 57.08659,
+        "lng": 9.87518,
         "date": "May 17",
         "year": "2025",
         "weapon": [
@@ -13322,8 +13279,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30914"
     },
@@ -13336,7 +13293,7 @@
         "date": "May 17",
         "year": "2025",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -13352,7 +13309,7 @@
         "date": "May 17",
         "year": "2025",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -13403,10 +13360,10 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
+            "U10",
             "U12",
             "U14",
-            "U10"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32005"
     },
@@ -13582,7 +13539,7 @@
         "date": "May 23",
         "year": "2025",
         "weapon": [
-            "Foil"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -13598,7 +13555,7 @@
         "date": "May 23",
         "year": "2025",
         "weapon": [
-            "Foil"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -13797,7 +13754,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30606"
     },
@@ -13881,8 +13838,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31592"
     },
@@ -13898,7 +13855,7 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U15"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30612"
     },
@@ -13949,8 +13906,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U12",
-            "U10"
+            "U12"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32139"
     },
@@ -13966,7 +13922,7 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U15"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30613"
     },
@@ -13982,8 +13938,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/29613"
     },
@@ -13999,7 +13955,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30607"
     },
@@ -14065,8 +14021,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U14"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33132"
     },
@@ -14129,7 +14085,7 @@
         "date": "May 25",
         "year": "2025",
         "weapon": [
-            "Foil"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -14183,9 +14139,9 @@
         ],
         "ageGroup": [
             "U18",
-            "U14",
+            "U12",
             "U16",
-            "U12"
+            "U14"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32478"
     },
@@ -14217,8 +14173,8 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U11",
             "U17",
+            "U11",
             "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30725"
@@ -14232,7 +14188,7 @@
         "date": "May 3",
         "year": "2025",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -14251,7 +14207,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30870"
     },
@@ -14267,7 +14223,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30601"
     },
@@ -14300,7 +14256,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30591"
     },
@@ -14382,7 +14338,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30600"
     },
@@ -14398,7 +14354,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30590"
     },
@@ -14455,8 +14411,8 @@
         "name": "Polish Championships",
         "country": "POL",
         "city": "Sosnowiec",
-        "lat": 50.27808,
-        "lng": 19.13429,
+        "lat": 50.27124,
+        "lng": 19.21556,
         "date": "May 30",
         "year": "2025",
         "weapon": [
@@ -14611,7 +14567,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U2",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30263"
@@ -14628,9 +14583,9 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
             "U12",
-            "U14"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32120"
     },
@@ -14646,7 +14601,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30611"
     },
@@ -14662,7 +14617,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30610"
     },
@@ -14696,7 +14651,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U15"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30605"
     },
@@ -14729,8 +14684,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30481"
     },
@@ -14746,7 +14701,7 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30599"
     },
@@ -14762,7 +14717,7 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30598"
     },
@@ -14810,7 +14765,7 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U13"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30615"
     },
@@ -14826,7 +14781,7 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U13"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30614"
     },
@@ -14842,7 +14797,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U15"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30604"
     },
@@ -14859,8 +14814,7 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31130"
     },
@@ -14894,9 +14848,9 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
+            "U10",
             "U14",
-            "U10"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33043"
     },
@@ -15187,8 +15141,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33090"
     },
@@ -15252,7 +15206,6 @@
             "Epee"
         ],
         "ageGroup": [
-            "U1",
             "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33408"
@@ -15463,7 +15416,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32606"
@@ -15525,7 +15477,6 @@
         "date": "Nov 15",
         "year": "2025",
         "weapon": [
-            "Foil",
             "Sabre"
         ],
         "ageGroup": [
@@ -15545,7 +15496,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U1",
             "U11",
             "U13"
         ],
@@ -15564,8 +15514,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32093"
     },
@@ -15677,10 +15627,10 @@
             "Epee"
         ],
         "ageGroup": [
+            "U15",
             "U11",
             "U9",
-            "U13",
-            "U15"
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33725"
     },
@@ -15776,8 +15726,8 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31487"
     },
@@ -15793,7 +15743,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U11"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33574"
     },
@@ -15923,10 +15873,10 @@
         ],
         "ageGroup": [
             "U20",
-            "U15",
-            "U11",
             "U13",
-            "U17"
+            "U17",
+            "U11",
+            "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33511"
     },
@@ -16154,10 +16104,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32820"
     },
@@ -16221,8 +16171,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U1"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33054"
     },
@@ -16333,7 +16283,6 @@
         "date": "Nov 29",
         "year": "2025",
         "weapon": [
-            "Epee",
             "Foil"
         ],
         "ageGroup": [
@@ -16435,8 +16384,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33549"
     },
@@ -16481,7 +16430,7 @@
         "date": "Nov 29",
         "year": "2025",
         "weapon": [
-            "Sabre"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -16501,8 +16450,8 @@
         ],
         "ageGroup": [
             "U20",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33306"
     },
@@ -16549,7 +16498,7 @@
         "date": "Nov 29",
         "year": "2025",
         "weapon": [
-            "Foil"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -16616,7 +16565,7 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U11"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32939"
     },
@@ -16713,8 +16662,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33475"
     },
@@ -16779,9 +16728,9 @@
             "Foil"
         ],
         "ageGroup": [
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32569"
     },
@@ -16794,8 +16743,7 @@
         "date": "Nov 8",
         "year": "2025",
         "weapon": [
-            "Epee",
-            "Foil"
+            "Epee"
         ],
         "ageGroup": [
             "U14"
@@ -17023,7 +16971,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U1"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32284"
     },
@@ -17039,8 +16987,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U12",
-            "U10"
+            "U10",
+            "U12"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33342"
     },
@@ -17064,8 +17012,8 @@
         "name": "Polish Junior Cup",
         "country": "POL",
         "city": "Gliwice",
-        "lat": 50.29411,
-        "lng": 18.66573,
+        "lat": 50.30113,
+        "lng": 18.66235,
         "date": "Oct 11",
         "year": "2025",
         "weapon": [
@@ -17088,7 +17036,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U11"
+            "U1"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31797"
     },
@@ -17267,8 +17215,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33307"
     },
@@ -17301,8 +17249,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33085"
     },
@@ -17610,7 +17558,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33028"
     },
@@ -17658,10 +17606,10 @@
             "Mixed"
         ],
         "ageGroup": [
-            "U20",
             "U17",
-            "U13",
-            "U15"
+            "U20",
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33021"
     },
@@ -17674,7 +17622,7 @@
         "date": "Oct 18",
         "year": "2025",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -17738,8 +17686,7 @@
         "date": "Oct 18",
         "year": "2025",
         "weapon": [
-            "Epee",
-            "Sabre"
+            "Epee"
         ],
         "ageGroup": [
             "Seniors"
@@ -17771,8 +17718,7 @@
         "date": "Oct 18",
         "year": "2025",
         "weapon": [
-            "Epee",
-            "Foil"
+            "Epee"
         ],
         "ageGroup": [
             "Seniors"
@@ -17805,12 +17751,12 @@
         "date": "Oct 18",
         "year": "2025",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33405"
     },
@@ -17970,8 +17916,7 @@
         "year": "2025",
         "weapon": [
             "Epee",
-            "Foil",
-            "Sabre"
+            "Foil"
         ],
         "ageGroup": [
             "Seniors"
@@ -18246,8 +18191,9 @@
             "Foil"
         ],
         "ageGroup": [
+            "U11",
             "U9",
-            "U11"
+            "U1"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32775"
     },
@@ -18328,8 +18274,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33355"
     },
@@ -18534,8 +18480,8 @@
         "name": "Polish Junior Cup",
         "country": "POL",
         "city": "Gliwice",
-        "lat": 50.29411,
-        "lng": 18.66573,
+        "lat": 50.30113,
+        "lng": 18.66235,
         "date": "Oct 4",
         "year": "2025",
         "weapon": [
@@ -18590,7 +18536,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32122"
     },
@@ -18670,8 +18616,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U14"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32740"
     },
@@ -18704,7 +18650,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32605"
@@ -18750,8 +18695,7 @@
         "date": "Oct 4",
         "year": "2025",
         "weapon": [
-            "Foil",
-            "Sabre"
+            "Foil"
         ],
         "ageGroup": [
             "Seniors"
@@ -18770,11 +18714,11 @@
             "Foil"
         ],
         "ageGroup": [
-            "U10",
             "U12",
-            "U8",
             "U17",
-            "U14"
+            "U14",
+            "U10",
+            "U8"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33339"
     },
@@ -18822,7 +18766,7 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U11"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32246"
     },
@@ -18874,7 +18818,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U15"
+            "U15",
+            "U1"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31229"
     },
@@ -18988,9 +18933,9 @@
         ],
         "ageGroup": [
             "U20",
-            "U17",
+            "U15",
             "U13",
-            "U15"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32738"
     },
@@ -19022,9 +18967,9 @@
             "Mixed"
         ],
         "ageGroup": [
-            "U17",
+            "U15",
             "U13",
-            "U15"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33127"
     },
@@ -19041,8 +18986,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U20",
             "U17",
+            "U20",
             "U11",
             "U13"
         ],
@@ -19061,8 +19006,8 @@
         ],
         "ageGroup": [
             "U20",
-            "U17",
-            "U14"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32736"
     },
@@ -19078,7 +19023,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32891"
     },
@@ -19223,8 +19168,7 @@
         "year": "2025",
         "weapon": [
             "Epee",
-            "Foil",
-            "Sabre"
+            "Foil"
         ],
         "ageGroup": [
             "Seniors"
@@ -19389,8 +19333,8 @@
         ],
         "ageGroup": [
             "U17",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32372"
     },
@@ -19406,7 +19350,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32892"
     },
@@ -19487,8 +19431,7 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32841"
     },
@@ -19631,8 +19574,7 @@
         "date": "Sep 27",
         "year": "2025",
         "weapon": [
-            "Foil",
-            "Sabre"
+            "Foil"
         ],
         "ageGroup": [
             "U17"
@@ -19651,9 +19593,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
             "U11",
-            "U15"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33391"
     },
@@ -19666,8 +19607,7 @@
         "date": "Sep 27",
         "year": "2025",
         "weapon": [
-            "Epee",
-            "Sabre"
+            "Epee"
         ],
         "ageGroup": [
             "U17"
@@ -19686,7 +19626,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U1",
             "U11"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32619"
@@ -19703,8 +19642,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U20",
             "U17",
+            "U20",
             "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33187"
@@ -19718,8 +19657,7 @@
         "date": "Sep 27",
         "year": "2025",
         "weapon": [
-            "Epee",
-            "Foil"
+            "Epee"
         ],
         "ageGroup": [
             "U15"
@@ -19735,7 +19673,7 @@
         "date": "Sep 27",
         "year": "2025",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -19770,10 +19708,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U20",
             "U17",
-            "U13",
-            "U15"
+            "U20",
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30388"
     },
@@ -19839,8 +19777,8 @@
         ],
         "ageGroup": [
             "U17",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32845"
     },
@@ -19885,7 +19823,7 @@
         "date": "Sep 27",
         "year": "2025",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -19953,8 +19891,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32452"
     },
@@ -20037,8 +19975,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32007"
     },
@@ -20078,15 +20016,14 @@
         "name": "2025 Cup of Carots",
         "country": "GER",
         "city": "Mainz-Gonsenheim",
-        "lat": 49.99771,
-        "lng": 8.21429,
+        "lat": 49.99774,
+        "lng": 8.21431,
         "date": "Sep 6",
         "year": "2025",
         "weapon": [
             "Epee"
         ],
         "ageGroup": [
-            "U1",
             "U11",
             "U9"
         ],
@@ -20104,9 +20041,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U11",
-            "U9",
-            "U15"
+            "U15",
+            "U9"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33059"
     },
@@ -20122,7 +20058,6 @@
             "Epee"
         ],
         "ageGroup": [
-            "U1",
             "U9"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32730"
@@ -20139,8 +20074,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U13"
+            "U13",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32848"
     },
@@ -20172,7 +20107,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32618"
@@ -20181,13 +20115,12 @@
         "name": "Mainzer Rad",
         "country": "GER",
         "city": "Mainz-Gonsenheim",
-        "lat": 49.99771,
-        "lng": 8.21429,
+        "lat": 49.99774,
+        "lng": 8.21431,
         "date": "Sep 6",
         "year": "2025",
         "weapon": [
-            "Epee",
-            "Foil"
+            "Epee"
         ],
         "ageGroup": [
             "U11",
@@ -20354,8 +20287,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33068"
     },
@@ -20470,7 +20402,7 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U15"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33990"
     },
@@ -20486,8 +20418,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33301"
     },
@@ -20763,8 +20695,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U12"
+            "U12",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34217"
     },
@@ -20885,8 +20817,8 @@
         "name": "Championships of Mainz",
         "country": "GER",
         "city": "Mainz-Gonsenheim",
-        "lat": 49.99771,
-        "lng": 8.21429,
+        "lat": 49.99774,
+        "lng": 8.21431,
         "date": "Apr 18",
         "year": "2026",
         "weapon": [
@@ -20909,8 +20841,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U23",
-            "U20"
+            "U20",
+            "U23"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33074"
     },
@@ -20923,7 +20855,7 @@
         "date": "Apr 18",
         "year": "2026",
         "weapon": [
-            "Foil"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -20991,8 +20923,8 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32862"
     },
@@ -21024,7 +20956,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34145"
     },
@@ -21058,10 +20990,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34051"
     },
@@ -21126,9 +21058,9 @@
             "Epee"
         ],
         "ageGroup": [
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34334"
     },
@@ -21176,7 +21108,6 @@
         "year": "2026",
         "weapon": [
             "Epee",
-            "Foil",
             "Sabre"
         ],
         "ageGroup": [
@@ -21263,8 +21194,7 @@
         "date": "Apr 25",
         "year": "2026",
         "weapon": [
-            "Epee",
-            "Foil"
+            "Epee"
         ],
         "ageGroup": [
             "U14"
@@ -21280,7 +21210,7 @@
         "date": "Apr 25",
         "year": "2026",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -21361,7 +21291,7 @@
         "date": "Apr 25",
         "year": "2026",
         "weapon": [
-            "Foil"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -21410,7 +21340,7 @@
         "date": "Apr 25",
         "year": "2026",
         "weapon": [
-            "Sabre"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -21462,7 +21392,7 @@
         ],
         "ageGroup": [
             "U13",
-            "U15"
+            "U1"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33954"
     },
@@ -21525,7 +21455,7 @@
         "date": "Apr 25",
         "year": "2026",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -21560,8 +21490,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33091"
     },
@@ -21691,7 +21621,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33857"
     },
@@ -21781,12 +21711,12 @@
         "name": "2026 Championships of Baden-Nord - Württemberg",
         "country": "GER",
         "city": "WÜ Heidelberg",
-        "lat": 51.25828,
-        "lng": 7.15621,
+        "lat": 51.2583,
+        "lng": 7.15622,
         "date": "Apr 26",
         "year": "2026",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -21904,7 +21834,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32609"
@@ -21919,8 +21848,7 @@
         "year": "2026",
         "weapon": [
             "Epee",
-            "Foil",
-            "Sabre"
+            "Foil"
         ],
         "ageGroup": [
             "Seniors"
@@ -21970,7 +21898,7 @@
         "date": "Aug 15",
         "year": "2026",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -22072,10 +22000,10 @@
         ],
         "ageGroup": [
             "U20",
-            "U15",
-            "U11",
             "U13",
-            "U17"
+            "U17",
+            "U11",
+            "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34860"
     },
@@ -22137,7 +22065,7 @@
         "date": "Aug 28",
         "year": "2026",
         "weapon": [
-            "Foil"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -22205,8 +22133,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20",
             "U17",
+            "U20",
             "U11",
             "U13"
         ],
@@ -22241,8 +22169,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U14",
-            "U12"
+            "U12",
+            "U14"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34359"
     },
@@ -22336,7 +22264,6 @@
         "date": "Dec 12",
         "year": "2026",
         "weapon": [
-            "Epee",
             "Foil"
         ],
         "ageGroup": [
@@ -22353,8 +22280,7 @@
         "date": "Dec 12",
         "year": "2026",
         "weapon": [
-            "Epee",
-            "Foil"
+            "Epee"
         ],
         "ageGroup": [
             "U14"
@@ -22440,8 +22366,8 @@
         "ageGroup": [
             "U17",
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35485"
     },
@@ -22454,7 +22380,6 @@
         "date": "Dec 12",
         "year": "2026",
         "weapon": [
-            "Epee",
             "Foil"
         ],
         "ageGroup": [
@@ -22514,8 +22439,8 @@
         "name": "Open Southwest German Championships",
         "country": "GER",
         "city": "Mainz-Gonsenheim",
-        "lat": 49.99771,
-        "lng": 8.21429,
+        "lat": 49.99774,
+        "lng": 8.21431,
         "date": "Dec 12",
         "year": "2026",
         "weapon": [
@@ -22555,8 +22480,8 @@
         ],
         "ageGroup": [
             "U20",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35276"
     },
@@ -22572,8 +22497,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U9",
-            "U15"
+            "U15",
+            "U9"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35506"
     },
@@ -22606,8 +22531,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34617"
     },
@@ -22687,10 +22612,10 @@
             "Foil"
         ],
         "ageGroup": [
+            "U15",
             "U11",
             "U9",
-            "U13",
-            "U15"
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34513"
     },
@@ -22698,8 +22623,8 @@
         "name": "2027 Ferrum Vetus 5",
         "country": "NED",
         "city": "Best",
-        "lat": 51.50337,
-        "lng": 5.39387,
+        "lat": 51.51595,
+        "lng": 5.39635,
         "date": "Dec 13",
         "year": "2026",
         "weapon": [
@@ -22740,7 +22665,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U20",
             "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34586"
@@ -22847,8 +22771,8 @@
         "name": "2027 Championships of Baden-Nord - Württemberg",
         "country": "GER",
         "city": "WÜ Heidelberg",
-        "lat": 51.25828,
-        "lng": 7.15621,
+        "lat": 51.2583,
+        "lng": 7.15622,
         "date": "Dec 19",
         "year": "2026",
         "weapon": [
@@ -22871,7 +22795,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35285"
     },
@@ -22904,8 +22828,7 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34983"
     },
@@ -23001,7 +22924,7 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U9"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33856"
     },
@@ -23017,10 +22940,26 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U11"
+            "U11",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35316"
+    },
+    {
+        "name": "2026 British Championships",
+        "country": "GBR",
+        "city": "London",
+        "lat": 51.50745,
+        "lng": -0.12777,
+        "date": "Dec 5",
+        "year": "2026",
+        "weapon": [
+            "Epee"
+        ],
+        "ageGroup": [
+            "U23"
+        ],
+        "pdfLink": "https://fencing.ophardt.online/en/widget/event/35557"
     },
     {
         "name": "EFC Black Sea Cup",
@@ -23052,8 +22991,8 @@
         ],
         "ageGroup": [
             "U20",
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33775"
     },
@@ -23213,12 +23152,29 @@
         "date": "Dec 5",
         "year": "2026",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35411"
+    },
+    {
+        "name": "2026 Christmas Tournament",
+        "country": "GER",
+        "city": "Rostock",
+        "lat": 54.08867,
+        "lng": 12.14002,
+        "date": "Dec 5",
+        "year": "2026",
+        "weapon": [
+            "Sabre"
+        ],
+        "ageGroup": [
+            "U11",
+            "U9"
+        ],
+        "pdfLink": "https://fencing.ophardt.online/en/widget/event/35553"
     },
     {
         "name": "2026 Christmas Cup",
@@ -23418,8 +23374,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33079"
     },
@@ -23451,8 +23407,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33710"
     },
@@ -23469,8 +23425,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33501"
     },
@@ -23665,7 +23621,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U15"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33681"
     },
@@ -23682,8 +23638,8 @@
         ],
         "ageGroup": [
             "U20",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33327"
     },
@@ -23765,10 +23721,10 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U20",
-            "U13",
             "U11",
-            "U15"
+            "U20",
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/31648"
     },
@@ -23801,10 +23757,10 @@
         ],
         "ageGroup": [
             "U20",
-            "U15",
-            "U11",
             "U13",
-            "U17"
+            "U17",
+            "U11",
+            "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33515"
     },
@@ -23820,8 +23776,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U14",
-            "U12"
+            "U12",
+            "U14"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33868"
     },
@@ -23852,7 +23808,7 @@
         "date": "Feb 21",
         "year": "2026",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "U20"
@@ -23868,7 +23824,7 @@
         "date": "Feb 21",
         "year": "2026",
         "weapon": [
-            "Foil"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -23970,10 +23926,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32581"
     },
@@ -23991,8 +23947,8 @@
         "ageGroup": [
             "U17",
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33395"
     },
@@ -24092,8 +24048,8 @@
         ],
         "ageGroup": [
             "U17",
-            "U13",
-            "U9"
+            "U9",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33516"
     },
@@ -24176,8 +24132,8 @@
         "ageGroup": [
             "U17",
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33577"
     },
@@ -24190,7 +24146,7 @@
         "date": "Feb 28",
         "year": "2026",
         "weapon": [
-            "Sabre"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -24201,8 +24157,8 @@
         "name": "Open Southwest German Championships",
         "country": "GER",
         "city": "Mainz-Gonsenheim",
-        "lat": 49.99771,
-        "lng": 8.21429,
+        "lat": 49.99774,
+        "lng": 8.21431,
         "date": "Feb 28",
         "year": "2026",
         "weapon": [
@@ -24259,9 +24215,9 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
             "U11",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33319"
     },
@@ -24357,8 +24313,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U9",
-            "U11"
+            "U11",
+            "U9"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33366"
     },
@@ -24374,7 +24330,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U9",
             "U11"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33798"
@@ -24602,7 +24557,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32608"
@@ -24652,10 +24606,10 @@
             "Mixed"
         ],
         "ageGroup": [
+            "U15",
             "U11",
             "U9",
-            "U13",
-            "U15"
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32965"
     },
@@ -24671,8 +24625,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20",
             "U17",
+            "U20",
             "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33914"
@@ -24755,8 +24709,8 @@
         ],
         "ageGroup": [
             "U20",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33318"
     },
@@ -24821,8 +24775,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33525"
     },
@@ -24928,8 +24882,8 @@
         "name": "EFC AMU Cup",
         "country": "POL",
         "city": "Poznan",
-        "lat": 52.40827,
-        "lng": 16.93352,
+        "lat": 52.40066,
+        "lng": 16.91973,
         "date": "Jan 10",
         "year": "2026",
         "weapon": [
@@ -24987,8 +24941,8 @@
         ],
         "ageGroup": [
             "U17",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33326"
     },
@@ -25054,8 +25008,8 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U20",
             "U11",
+            "U20",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33295"
@@ -25104,8 +25058,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33751"
     },
@@ -25118,7 +25072,7 @@
         "date": "Jan 10",
         "year": "2026",
         "weapon": [
-            "Sabre"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -25154,8 +25108,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U12"
+            "U12",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33343"
     },
@@ -25247,8 +25201,8 @@
         "name": "Polish Championships",
         "country": "POL",
         "city": "Gliwice",
-        "lat": 50.29411,
-        "lng": 18.66573,
+        "lat": 50.30113,
+        "lng": 18.66235,
         "date": "Jan 17",
         "year": "2026",
         "weapon": [
@@ -25303,8 +25257,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U14"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33533"
     },
@@ -25321,7 +25275,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U9",
             "U11"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32575"
@@ -25338,7 +25291,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33887"
     },
@@ -25399,7 +25352,7 @@
         "date": "Jan 17",
         "year": "2026",
         "weapon": [
-            "Foil"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -25515,8 +25468,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U9",
-            "U11"
+            "U11",
+            "U9"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33707"
     },
@@ -25648,9 +25601,9 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
+            "U12",
             "U14",
-            "U12"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33711"
     },
@@ -25781,8 +25734,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33987"
     },
@@ -25799,11 +25752,11 @@
         ],
         "ageGroup": [
             "U20",
-            "U15",
+            "U13",
+            "U17",
             "U11",
             "U9",
-            "U13",
-            "U17"
+            "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33356"
     },
@@ -25900,8 +25853,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20",
             "U17",
+            "U20",
             "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33315"
@@ -25934,7 +25887,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32973"
     },
@@ -25951,8 +25904,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33678"
     },
@@ -26098,7 +26051,6 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20",
             "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32165"
@@ -26249,10 +26201,10 @@
         ],
         "ageGroup": [
             "U20",
-            "U15",
-            "U11",
             "U13",
-            "U17"
+            "U17",
+            "U11",
+            "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33317"
     },
@@ -26539,8 +26491,8 @@
         "name": "Mannschaftsturnier Open 2026 Danube Cup",
         "country": "GER",
         "city": "WÜ Ulm",
-        "lat": 48.39592,
-        "lng": 9.99337,
+        "lat": 48.39843,
+        "lng": 9.99095,
         "date": "Jul 11",
         "year": "2026",
         "weapon": [
@@ -26603,16 +26555,16 @@
         "name": "Mannschaftsturnier Open 2026 Danube Cup",
         "country": "GER",
         "city": "WÜ Ulm",
-        "lat": 48.39592,
-        "lng": 9.99337,
+        "lat": 48.39843,
+        "lng": 9.99095,
         "date": "Jul 11",
         "year": "2026",
         "weapon": [
             "Epee"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34482"
     },
@@ -26710,7 +26662,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U15"
+            "U1"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34660"
     },
@@ -26775,7 +26727,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U9"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34046"
     },
@@ -26791,8 +26743,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33641"
     },
@@ -26824,7 +26776,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U15"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34045"
     },
@@ -26888,7 +26840,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33827"
     },
@@ -26936,8 +26888,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32866"
     },
@@ -26989,8 +26941,8 @@
         ],
         "ageGroup": [
             "U20",
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34491"
     },
@@ -27145,8 +27097,8 @@
         "name": "Dutch Championships",
         "country": "NED",
         "city": "Almere",
-        "lat": 52.44176,
-        "lng": 5.20931,
+        "lat": 52.3705,
+        "lng": 5.21859,
         "date": "Jun 13",
         "year": "2026",
         "weapon": [
@@ -27351,8 +27303,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34365"
     },
@@ -27366,7 +27318,6 @@
         "year": "2026",
         "weapon": [
             "Epee",
-            "Foil",
             "Sabre"
         ],
         "ageGroup": [
@@ -27387,9 +27338,9 @@
         ],
         "ageGroup": [
             "U20",
-            "U17",
+            "U12",
             "U14",
-            "U12"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34078"
     },
@@ -27418,8 +27369,7 @@
         "date": "Jun 20",
         "year": "2026",
         "weapon": [
-            "Epee",
-            "Foil"
+            "Epee"
         ],
         "ageGroup": [
             "U9",
@@ -27440,8 +27390,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34378"
     },
@@ -27473,7 +27423,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32806"
     },
@@ -27502,7 +27452,6 @@
         "date": "Jun 20",
         "year": "2026",
         "weapon": [
-            "Epee",
             "Foil"
         ],
         "ageGroup": [
@@ -27657,8 +27606,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33826"
     },
@@ -27676,8 +27625,8 @@
         "ageGroup": [
             "U17",
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34260"
     },
@@ -27759,8 +27708,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33994"
     },
@@ -28019,7 +27968,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U15"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32786"
     },
@@ -28080,8 +28029,7 @@
         "date": "Jun 6",
         "year": "2026",
         "weapon": [
-            "Epee",
-            "Foil"
+            "Epee"
         ],
         "ageGroup": [
             "Seniors"
@@ -28140,8 +28088,8 @@
         "name": "7 Keizer Karel Tournament",
         "country": "NED",
         "city": "Nijmegen",
-        "lat": 51.84749,
-        "lng": 5.86378,
+        "lat": 51.84257,
+        "lng": 5.83896,
         "date": "Mar 1",
         "year": "2026",
         "weapon": [
@@ -28200,8 +28148,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U11",
-            "U13"
+            "U11"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33891"
     },
@@ -28217,9 +28164,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U1",
-            "U17",
-            "U10"
+            "U10",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33344"
     },
@@ -28235,8 +28181,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U14",
-            "U10"
+            "U10",
+            "U14"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32689"
     },
@@ -28302,8 +28248,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U14",
-            "U12"
+            "U12",
+            "U14"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33992"
     },
@@ -28365,7 +28311,7 @@
         "date": "Mar 14",
         "year": "2026",
         "weapon": [
-            "Foil"
+            "Mixed"
         ],
         "ageGroup": [
             "U15"
@@ -28432,7 +28378,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32898"
     },
@@ -28446,8 +28392,7 @@
         "year": "2026",
         "weapon": [
             "Epee",
-            "Foil",
-            "Sabre"
+            "Foil"
         ],
         "ageGroup": [
             "Seniors"
@@ -28515,7 +28460,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32904"
     },
@@ -28531,7 +28476,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U9"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33104"
     },
@@ -28579,7 +28524,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33538"
     },
@@ -28596,9 +28541,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U11",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32994"
     },
@@ -28627,8 +28571,7 @@
         "date": "Mar 14",
         "year": "2026",
         "weapon": [
-            "Epee",
-            "Foil"
+            "Epee"
         ],
         "ageGroup": [
             "Seniors"
@@ -28639,8 +28582,8 @@
         "name": "Polish Championships",
         "country": "POL",
         "city": "Poznan",
-        "lat": 52.40827,
-        "lng": 16.93352,
+        "lat": 52.40066,
+        "lng": 16.91973,
         "date": "Mar 15",
         "year": "2026",
         "weapon": [
@@ -28762,8 +28705,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33012"
     },
@@ -28878,8 +28821,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U23",
-            "U2"
+            "U23"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32719"
     },
@@ -28927,7 +28869,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33682"
     },
@@ -28991,8 +28933,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U13"
+            "U13",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33426"
     },
@@ -29008,7 +28950,6 @@
             "Epee"
         ],
         "ageGroup": [
-            "U9",
             "U11",
             "U15"
         ],
@@ -29084,12 +29025,12 @@
         "name": "2026 Championships of Baden-Nord - Württemberg",
         "country": "GER",
         "city": "WÜ Heidelberg",
-        "lat": 51.25828,
-        "lng": 7.15621,
+        "lat": 51.2583,
+        "lng": 7.15622,
         "date": "Mar 21",
         "year": "2026",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -29122,7 +29063,7 @@
         "date": "Mar 21",
         "year": "2026",
         "weapon": [
-            "Foil"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -29172,12 +29113,11 @@
         "date": "Mar 22",
         "year": "2026",
         "weapon": [
-            "Epee",
-            "Foil"
+            "Epee"
         ],
         "ageGroup": [
-            "U12",
-            "U10"
+            "U10",
+            "U12"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34055"
     },
@@ -29437,8 +29377,7 @@
         "date": "Mar 28",
         "year": "2026",
         "weapon": [
-            "Epee",
-            "Foil"
+            "Epee"
         ],
         "ageGroup": [
             "U15"
@@ -29457,7 +29396,7 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U20"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34060"
     },
@@ -29506,10 +29445,10 @@
             "Foil"
         ],
         "ageGroup": [
+            "U15",
             "U11",
             "U9",
-            "U13",
-            "U15"
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33367"
     },
@@ -29538,7 +29477,7 @@
         "date": "Mar 28",
         "year": "2026",
         "weapon": [
-            "Foil"
+            "Mixed"
         ],
         "ageGroup": [
             "U17",
@@ -29559,8 +29498,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33302"
     },
@@ -29691,8 +29630,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U23",
-            "U20"
+            "U20",
+            "U23"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34088"
     },
@@ -29774,8 +29713,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33510"
     },
@@ -29791,8 +29730,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U9",
-            "U15"
+            "U15",
+            "U9"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33396"
     },
@@ -29840,9 +29779,9 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
             "U11",
-            "U13"
+            "U13",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33321"
     },
@@ -29973,8 +29912,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U20",
-            "U15"
+            "U20"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33898"
     },
@@ -30040,7 +29978,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20"
+            "U20",
+            "U2"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32972"
     },
@@ -30119,7 +30058,7 @@
         "date": "Mar 7",
         "year": "2026",
         "weapon": [
-            "Sabre"
+            "Mixed"
         ],
         "ageGroup": [
             "U17"
@@ -30135,7 +30074,7 @@
         "date": "Mar 7",
         "year": "2026",
         "weapon": [
-            "Foil"
+            "Mixed"
         ],
         "ageGroup": [
             "U17"
@@ -30203,9 +30142,9 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
+            "U12",
             "U13",
-            "U12"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34262"
     },
@@ -30509,8 +30448,7 @@
         "date": "May 16",
         "year": "2026",
         "weapon": [
-            "Epee",
-            "Sabre"
+            "Epee"
         ],
         "ageGroup": [
             "Seniors"
@@ -30529,7 +30467,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U15"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32788"
     },
@@ -30558,7 +30496,7 @@
         "date": "May 16",
         "year": "2026",
         "weapon": [
-            "Foil"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -30626,7 +30564,7 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U15"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32790"
     },
@@ -30757,7 +30695,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32835"
     },
@@ -30870,8 +30808,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32982"
     },
@@ -30920,8 +30858,8 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U11",
             "U17",
+            "U11",
             "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32936"
@@ -30938,7 +30876,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U12",
             "U10"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34147"
@@ -31179,8 +31116,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33076"
     },
@@ -31228,8 +31165,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33125"
     },
@@ -31330,8 +31267,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34372"
     },
@@ -31396,7 +31332,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34511"
     },
@@ -31474,8 +31410,8 @@
         "name": "17 Tegeltjes Tournament",
         "country": "NED",
         "city": "Delft",
-        "lat": 52.0114,
-        "lng": 4.35839,
+        "lat": 51.99946,
+        "lng": 4.36272,
         "date": "May 3",
         "year": "2026",
         "weapon": [
@@ -31515,10 +31451,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32582"
     },
@@ -31583,11 +31519,11 @@
             "Foil"
         ],
         "ageGroup": [
-            "U15",
+            "U13",
+            "U17",
             "U11",
             "U9",
-            "U13",
-            "U17"
+            "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34280"
     },
@@ -31684,7 +31620,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U20",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33052"
@@ -31718,8 +31653,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U9",
             "U11",
+            "U9",
             "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34271"
@@ -31776,8 +31711,8 @@
         "name": "2026 Danish Senior Championships",
         "country": "DEN",
         "city": "HS K",
-        "lat": 57.0873,
-        "lng": 9.8743,
+        "lat": 57.08659,
+        "lng": 9.87518,
         "date": "May 30",
         "year": "2026",
         "weapon": [
@@ -31868,9 +31803,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U11",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32995"
     },
@@ -32085,7 +32019,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32800"
     },
@@ -32182,7 +32116,7 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32798"
     },
@@ -32214,11 +32148,11 @@
             "Epee"
         ],
         "ageGroup": [
-            "U15",
+            "U13",
+            "U17",
             "U11",
             "U9",
-            "U13",
-            "U17"
+            "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33989"
     },
@@ -32365,8 +32299,8 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34064"
     },
@@ -32446,8 +32380,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U11"
+            "U11",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35314"
     },
@@ -32546,10 +32480,10 @@
         ],
         "ageGroup": [
             "U20",
-            "U15",
-            "U11",
             "U13",
-            "U17"
+            "U17",
+            "U11",
+            "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35431"
     },
@@ -32597,8 +32531,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35387"
     },
@@ -32611,7 +32545,6 @@
         "date": "Nov 14",
         "year": "2026",
         "weapon": [
-            "Foil",
             "Sabre"
         ],
         "ageGroup": [
@@ -32649,8 +32582,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34290"
     },
@@ -32716,10 +32649,10 @@
             "Epee"
         ],
         "ageGroup": [
+            "U15",
             "U11",
             "U9",
-            "U13",
-            "U15"
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35473"
     },
@@ -32925,7 +32858,7 @@
         "date": "Nov 21",
         "year": "2026",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -33059,7 +32992,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U20"
+            "U2"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35328"
     },
@@ -33075,7 +33008,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U20",
             "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34585"
@@ -33109,7 +33041,6 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20",
             "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34548"
@@ -33139,7 +33070,7 @@
         "date": "Nov 26",
         "year": "2026",
         "weapon": [
-            "Epee"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -33179,6 +33110,22 @@
             "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33624"
+    },
+    {
+        "name": "2026 British Championships",
+        "country": "GBR",
+        "city": "London",
+        "lat": 51.50745,
+        "lng": -0.12777,
+        "date": "Nov 28",
+        "year": "2026",
+        "weapon": [
+            "Sabre"
+        ],
+        "ageGroup": [
+            "U23"
+        ],
+        "pdfLink": "https://fencing.ophardt.online/en/widget/event/35555"
     },
     {
         "name": "International Tournament",
@@ -33304,7 +33251,7 @@
         "date": "Nov 28",
         "year": "2026",
         "weapon": [
-            "Sabre"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -33420,7 +33367,7 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U11"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34643"
     },
@@ -33452,7 +33399,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35546"
     },
@@ -33468,8 +33415,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35206"
     },
@@ -33485,9 +33432,9 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U17",
             "U11",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35114"
     },
@@ -33605,8 +33552,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U14"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35019"
     },
@@ -33688,8 +33635,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35289"
     },
@@ -33706,8 +33653,8 @@
         ],
         "ageGroup": [
             "U20",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35233"
     },
@@ -33787,8 +33734,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35039"
     },
@@ -33837,8 +33784,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35167"
     },
@@ -33854,8 +33801,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U9",
-            "U15"
+            "U15",
+            "U9"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35466"
     },
@@ -33871,8 +33818,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35386"
     },
@@ -33987,8 +33934,8 @@
         ],
         "ageGroup": [
             "U20",
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35535"
     },
@@ -34004,7 +33951,6 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U1",
             "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35345"
@@ -34101,7 +34047,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U11"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35203"
     },
@@ -34136,8 +34082,8 @@
         ],
         "ageGroup": [
             "U20",
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34809"
     },
@@ -34154,7 +34100,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U1",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34989"
@@ -34203,10 +34148,10 @@
             "Foil"
         ],
         "ageGroup": [
+            "U15",
             "U11",
             "U9",
-            "U13",
-            "U15"
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34906"
     },
@@ -34351,10 +34296,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34053"
     },
@@ -34516,10 +34461,10 @@
             "Mixed"
         ],
         "ageGroup": [
-            "U20",
             "U17",
-            "U13",
-            "U15"
+            "U20",
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34851"
     },
@@ -34596,8 +34541,7 @@
         "date": "Oct 17",
         "year": "2026",
         "weapon": [
-            "Epee",
-            "Foil"
+            "Epee"
         ],
         "ageGroup": [
             "Seniors"
@@ -34779,7 +34723,6 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U20",
             "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34600"
@@ -34812,7 +34755,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U1"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33974"
     },
@@ -34939,8 +34882,7 @@
         "year": "2026",
         "weapon": [
             "Epee",
-            "Foil",
-            "Sabre"
+            "Foil"
         ],
         "ageGroup": [
             "Seniors"
@@ -35171,8 +35113,7 @@
         ],
         "ageGroup": [
             "U20",
-            "U11",
-            "U15"
+            "U11"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35397"
     },
@@ -35205,8 +35146,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U14"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35054"
     },
@@ -35254,10 +35195,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U20",
             "U17",
-            "U13",
-            "U15"
+            "U20",
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35242"
     },
@@ -35274,8 +35215,8 @@
         ],
         "ageGroup": [
             "U17",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34858"
     },
@@ -35308,9 +35249,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U11",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34616"
     },
@@ -35372,14 +35312,29 @@
         "date": "Oct 31",
         "year": "2026",
         "weapon": [
-            "Foil",
-            "Sabre"
+            "Foil"
         ],
         "ageGroup": [
-            "U8",
-            "U10"
+            "U10",
+            "U8"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35306"
+    },
+    {
+        "name": "2026 British Championships",
+        "country": "GBR",
+        "city": "London",
+        "lat": 51.50745,
+        "lng": -0.12777,
+        "date": "Oct 31",
+        "year": "2026",
+        "weapon": [
+            "Foil"
+        ],
+        "ageGroup": [
+            "U23"
+        ],
+        "pdfLink": "https://fencing.ophardt.online/en/widget/event/35556"
     },
     {
         "name": "EVF 4 Ciudad de Madrid Cup",
@@ -35425,8 +35380,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34826"
     },
@@ -35571,8 +35526,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U9",
-            "U15"
+            "U15",
+            "U9"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35429"
     },
@@ -35588,7 +35543,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U20"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35327"
     },
@@ -35651,8 +35606,7 @@
         "date": "Oct 31",
         "year": "2026",
         "weapon": [
-            "Epee",
-            "Foil"
+            "Epee"
         ],
         "ageGroup": [
             "Seniors"
@@ -35748,7 +35702,6 @@
         "date": "Oct 9",
         "year": "2026",
         "weapon": [
-            "Epee",
             "Sabre"
         ],
         "ageGroup": [
@@ -35836,8 +35789,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U11"
+            "U11",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34695"
     },
@@ -36015,8 +35968,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U13"
+            "U13",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34878"
     },
@@ -36049,8 +36002,8 @@
         ],
         "ageGroup": [
             "U20",
-            "U17",
-            "U14"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34733"
     },
@@ -36479,8 +36432,8 @@
         "name": "2026 Cup of Carots",
         "country": "GER",
         "city": "Mainz-Gonsenheim",
-        "lat": 49.99771,
-        "lng": 8.21429,
+        "lat": 49.99774,
+        "lng": 8.21431,
         "date": "Sep 19",
         "year": "2026",
         "weapon": [
@@ -36512,8 +36465,8 @@
         "name": "Mainzer Rad",
         "country": "GER",
         "city": "Mainz-Gonsenheim",
-        "lat": 49.99771,
-        "lng": 8.21429,
+        "lat": 49.99774,
+        "lng": 8.21431,
         "date": "Sep 19",
         "year": "2026",
         "weapon": [
@@ -36713,8 +36666,7 @@
         "date": "Sep 26",
         "year": "2026",
         "weapon": [
-            "Epee",
-            "Sabre"
+            "Epee"
         ],
         "ageGroup": [
             "U17"
@@ -36782,9 +36734,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34509"
     },
@@ -36850,11 +36801,11 @@
         ],
         "ageGroup": [
             "U20",
-            "U15",
+            "U13",
+            "U17",
             "U11",
             "U9",
-            "U13",
-            "U17"
+            "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/30389"
     },
@@ -36920,8 +36871,8 @@
         ],
         "ageGroup": [
             "U17",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35094"
     },
@@ -36937,8 +36888,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U9",
-            "U15"
+            "U15",
+            "U9"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/32453"
     },
@@ -36955,8 +36906,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33970"
     },
@@ -37137,7 +37088,6 @@
             "Epee"
         ],
         "ageGroup": [
-            "U1",
             "U9"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34560"
@@ -37203,8 +37153,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U9",
             "U11",
+            "U9",
             "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34559"
@@ -37218,7 +37168,6 @@
         "date": "Sep 6",
         "year": "2026",
         "weapon": [
-            "Epee",
             "Sabre"
         ],
         "ageGroup": [
@@ -37284,8 +37233,7 @@
         "date": "Apr 10",
         "year": "2027",
         "weapon": [
-            "Epee",
-            "Foil"
+            "Epee"
         ],
         "ageGroup": [
             "U14"
@@ -37352,8 +37300,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35255"
     },
@@ -37401,9 +37349,9 @@
             "Foil"
         ],
         "ageGroup": [
+            "U15",
             "U9",
-            "U13",
-            "U15"
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34526"
     },
@@ -37452,9 +37400,9 @@
         ],
         "ageGroup": [
             "U11",
+            "U15",
             "U9",
-            "U13",
-            "U15"
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35258"
     },
@@ -37618,8 +37566,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U23",
-            "U20"
+            "U20",
+            "U23"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34684"
     },
@@ -37627,8 +37575,8 @@
         "name": "Championships of Mainz",
         "country": "GER",
         "city": "Mainz-Gonsenheim",
-        "lat": 49.99771,
-        "lng": 8.21429,
+        "lat": 49.99774,
+        "lng": 8.21431,
         "date": "Apr 17",
         "year": "2027",
         "weapon": [
@@ -37648,7 +37596,7 @@
         "date": "Apr 17",
         "year": "2027",
         "weapon": [
-            "Foil"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -37701,8 +37649,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35122"
     },
@@ -37750,10 +37698,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34692"
     },
@@ -37766,7 +37714,6 @@
         "date": "Apr 24",
         "year": "2027",
         "weapon": [
-            "Epee",
             "Foil",
             "Sabre"
         ],
@@ -37836,9 +37783,9 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
             "U13",
-            "U9"
+            "U9",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35012"
     },
@@ -37870,10 +37817,10 @@
             "Epee"
         ],
         "ageGroup": [
+            "U15",
             "U11",
             "U9",
-            "U13",
-            "U15"
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35123"
     },
@@ -37921,10 +37868,10 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U11",
             "U17",
-            "U13",
-            "U9"
+            "U11",
+            "U9",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35093"
     },
@@ -37956,7 +37903,8 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U15"
+            "U15",
+            "U1"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34899"
     },
@@ -37988,8 +37936,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35099"
     },
@@ -38006,10 +37954,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
+            "U10",
             "U12",
             "U14",
-            "U10"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35130"
     },
@@ -38041,8 +37989,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35173"
     },
@@ -38142,8 +38090,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34577"
     },
@@ -38159,8 +38107,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U12"
+            "U12",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35334"
     },
@@ -38173,7 +38121,7 @@
         "date": "Apr 3",
         "year": "2027",
         "weapon": [
-            "Foil"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -38222,7 +38170,7 @@
         "date": "Apr 3",
         "year": "2027",
         "weapon": [
-            "Foil"
+            "Mixed"
         ],
         "ageGroup": [
             "U17",
@@ -38243,8 +38191,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U9",
             "U11",
+            "U9",
             "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35109"
@@ -38261,7 +38209,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35363"
     },
@@ -38313,8 +38261,8 @@
         "ageGroup": [
             "U17",
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35110"
     },
@@ -38330,7 +38278,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20"
+            "U20",
+            "U2"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35362"
     },
@@ -38413,8 +38362,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35088"
     },
@@ -38430,7 +38379,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U11"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34776"
     },
@@ -38462,8 +38411,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20",
             "U17",
+            "U20",
             "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35103"
@@ -38481,8 +38430,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35312"
     },
@@ -38646,8 +38595,8 @@
         ],
         "ageGroup": [
             "U20",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35378"
     },
@@ -38663,10 +38612,10 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20",
             "U17",
-            "U13",
-            "U15"
+            "U20",
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35279"
     },
@@ -38729,7 +38678,7 @@
         "date": "Feb 20",
         "year": "2027",
         "weapon": [
-            "Sabre"
+            "Mixed"
         ],
         "ageGroup": [
             "Seniors"
@@ -38901,22 +38850,6 @@
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34755"
     },
     {
-        "name": "DFB Qualifikationsturnier Coat of Hamburg",
-        "country": "GER",
-        "city": "Hamburg",
-        "lat": 53.55017,
-        "lng": 10.00132,
-        "date": "Feb 27",
-        "year": "2027",
-        "weapon": [
-            "Foil"
-        ],
-        "ageGroup": [
-            "Seniors"
-        ],
-        "pdfLink": "https://fencing.ophardt.online/en/widget/event/34238"
-    },
-    {
         "name": "DFB Qualifikationsturnier 18 Stefan-Haukler-Memoriam 2026",
         "country": "GER",
         "city": "Offenbach",
@@ -38933,6 +38866,22 @@
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34786"
     },
     {
+        "name": "DFB Qualifikationsturnier Coat of Hamburg",
+        "country": "GER",
+        "city": "Hamburg",
+        "lat": 53.55017,
+        "lng": 10.00132,
+        "date": "Feb 27",
+        "year": "2027",
+        "weapon": [
+            "Foil"
+        ],
+        "ageGroup": [
+            "Seniors"
+        ],
+        "pdfLink": "https://fencing.ophardt.online/en/widget/event/34238"
+    },
+    {
         "name": "NRW-Q U15, U20, Senioren Essener Hügel Cup 2026",
         "country": "GER",
         "city": "Essen",
@@ -38945,8 +38894,8 @@
         ],
         "ageGroup": [
             "U20",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35379"
     },
@@ -38980,8 +38929,8 @@
         ],
         "ageGroup": [
             "U20",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34810"
     },
@@ -39095,8 +39044,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U11"
+            "U11",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35317"
     },
@@ -39130,7 +39079,6 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U13",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34845"
@@ -39229,7 +39177,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U1",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34623"
@@ -39262,11 +39209,11 @@
             "Mixed"
         ],
         "ageGroup": [
-            "U15",
+            "U13",
+            "U17",
             "U11",
             "U9",
-            "U13",
-            "U17"
+            "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35177"
     },
@@ -39298,8 +39245,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U14",
-            "U12"
+            "U12",
+            "U14"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34360"
     },
@@ -39316,8 +39263,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U20",
-            "U8"
+            "U8",
+            "U20"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35134"
     },
@@ -39383,8 +39330,7 @@
         ],
         "ageGroup": [
             "U20",
-            "U17",
-            "U12"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35142"
     },
@@ -39449,10 +39395,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U11",
             "U17",
-            "U13",
-            "U15"
+            "U11",
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35376"
     },
@@ -39468,8 +39414,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34781"
     },
@@ -39477,8 +39423,8 @@
         "name": "EFC AMU Cup",
         "country": "POL",
         "city": "Poznan",
-        "lat": 52.40827,
-        "lng": 16.93352,
+        "lat": 52.40066,
+        "lng": 16.91973,
         "date": "Jan 16",
         "year": "2027",
         "weapon": [
@@ -39546,7 +39492,6 @@
         "date": "Jan 16",
         "year": "2027",
         "weapon": [
-            "Epee",
             "Foil"
         ],
         "ageGroup": [
@@ -39582,8 +39527,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35260"
     },
@@ -39616,8 +39561,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35400"
     },
@@ -39633,7 +39578,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35002"
     },
@@ -39796,7 +39741,6 @@
             "Epee"
         ],
         "ageGroup": [
-            "U2",
             "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34550"
@@ -39830,9 +39774,9 @@
             "Foil"
         ],
         "ageGroup": [
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35510"
     },
@@ -39845,7 +39789,6 @@
         "date": "Jan 23",
         "year": "2027",
         "weapon": [
-            "Epee",
             "Foil"
         ],
         "ageGroup": [
@@ -39913,7 +39856,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U9"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35410"
     },
@@ -39929,7 +39872,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U1",
             "U11"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35467"
@@ -40060,10 +40002,10 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U20",
             "U11",
-            "U13",
-            "U15"
+            "U20",
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35341"
     },
@@ -40224,8 +40166,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20",
             "U11",
+            "U20",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35278"
@@ -40242,9 +40184,9 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
+            "U12",
             "U14",
-            "U12"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35414"
     },
@@ -40343,11 +40285,11 @@
         ],
         "ageGroup": [
             "U20",
-            "U15",
+            "U13",
+            "U17",
             "U11",
             "U9",
-            "U13",
-            "U17"
+            "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35322"
     },
@@ -40381,8 +40323,8 @@
         ],
         "ageGroup": [
             "U17",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35377"
     },
@@ -40415,7 +40357,6 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34992"
@@ -40465,8 +40406,8 @@
         ],
         "ageGroup": [
             "U20",
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35385"
     },
@@ -40498,7 +40439,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20"
+            "U20",
+            "U2"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35359"
     },
@@ -40615,8 +40557,8 @@
         ],
         "ageGroup": [
             "U20",
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35339"
     },
@@ -40665,6 +40607,7 @@
         ],
         "ageGroup": [
             "U20",
+            "U2",
             "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34549"
@@ -40699,8 +40642,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35105"
     },
@@ -40750,8 +40693,8 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34991"
     },
@@ -40830,7 +40773,6 @@
         "date": "Jan 9",
         "year": "2027",
         "weapon": [
-            "Epee",
             "Foil",
             "Sabre"
         ],
@@ -40867,9 +40809,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U20",
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35468"
     },
@@ -40885,10 +40826,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34693"
     },
@@ -40941,8 +40882,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35282"
     },
@@ -40959,8 +40900,8 @@
         ],
         "ageGroup": [
             "U17",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35161"
     },
@@ -40976,8 +40917,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35371"
     },
@@ -41027,8 +40968,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U9",
-            "U11"
+            "U11",
+            "U9"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35337"
     },
@@ -41061,8 +41002,8 @@
         ],
         "ageGroup": [
             "U11",
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/33694"
     },
@@ -41127,8 +41068,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35008"
     },
@@ -41145,8 +41086,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34619"
     },
@@ -41229,10 +41170,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34691"
     },
@@ -41297,7 +41238,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35005"
     },
@@ -41362,8 +41303,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U11"
+            "U11",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35097"
     },
@@ -41492,8 +41433,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U14",
-            "U10"
+            "U10",
+            "U14"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34957"
     },
@@ -41541,8 +41482,7 @@
             "Foil"
         ],
         "ageGroup": [
-            "U23",
-            "U2"
+            "U23"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34958"
     },
@@ -41575,8 +41515,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20",
             "U11",
+            "U20",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35120"
@@ -41629,8 +41569,8 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34993"
     },
@@ -41647,8 +41587,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34618"
     },
@@ -41664,7 +41604,7 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U15"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34901"
     },
@@ -41697,8 +41637,8 @@
         ],
         "ageGroup": [
             "U20",
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35340"
     },
@@ -41715,10 +41655,10 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35421"
     },
@@ -41912,8 +41852,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
-            "U11"
+            "U11",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35024"
     },
@@ -41929,9 +41869,9 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
+            "U15",
             "U13",
-            "U15"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35166"
     },
@@ -41979,8 +41919,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35252"
     },
@@ -41996,8 +41936,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U20",
             "U11",
+            "U20",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35251"
@@ -42014,10 +41954,10 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U20",
             "U17",
-            "U13",
-            "U15"
+            "U20",
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35342"
     },
@@ -42109,8 +42049,8 @@
         "name": "8 Keizer Karel Tournament",
         "country": "NED",
         "city": "Nijmegen",
-        "lat": 51.84749,
-        "lng": 5.86378,
+        "lat": 51.84257,
+        "lng": 5.83896,
         "date": "Mar 7",
         "year": "2027",
         "weapon": [
@@ -42169,9 +42109,9 @@
             "Foil"
         ],
         "ageGroup": [
+            "U10",
             "U20",
-            "U12",
-            "U10"
+            "U12"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35131"
     },
@@ -42187,7 +42127,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35308"
     },
@@ -42248,8 +42188,7 @@
         "date": "May 15",
         "year": "2027",
         "weapon": [
-            "Epee",
-            "Sabre"
+            "Epee"
         ],
         "ageGroup": [
             "Seniors"
@@ -42336,9 +42275,9 @@
             "Foil"
         ],
         "ageGroup": [
-            "U14",
+            "U10",
             "U12",
-            "U10"
+            "U14"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35423"
     },
@@ -42386,8 +42325,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34750"
     },
@@ -42403,9 +42342,9 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
             "U13",
-            "U9"
+            "U9",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35060"
     },
@@ -42437,8 +42376,7 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U14"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35438"
     },
@@ -42487,7 +42425,7 @@
             "Sabre"
         ],
         "ageGroup": [
-            "U15"
+            "Seniors"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34843"
     },
@@ -42503,8 +42441,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U12",
-            "U10"
+            "U10",
+            "U12"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35437"
     },
@@ -42584,9 +42522,9 @@
             "Foil"
         ],
         "ageGroup": [
-            "U17",
+            "U15",
             "U13",
-            "U15"
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35301"
     },
@@ -42602,8 +42540,8 @@
             "Foil"
         ],
         "ageGroup": [
-            "U13",
-            "U15"
+            "U15",
+            "U13"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35040"
     },
@@ -42652,8 +42590,8 @@
             "Epee"
         ],
         "ageGroup": [
-            "U17",
-            "U15"
+            "U15",
+            "U17"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34703"
     },
@@ -42751,7 +42689,6 @@
             "Epee"
         ],
         "ageGroup": [
-            "U13",
             "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/34707"
@@ -42784,11 +42721,11 @@
             "Epee"
         ],
         "ageGroup": [
-            "U15",
+            "U13",
+            "U17",
             "U11",
             "U9",
-            "U13",
-            "U17"
+            "U15"
         ],
         "pdfLink": "https://fencing.ophardt.online/en/widget/event/35550"
     }
